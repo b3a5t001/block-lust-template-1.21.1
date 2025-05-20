@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mossy_sources": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:vine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "blocklust:mossy_bricks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mossy_sources",
+      "has_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "blocklust:mossy_bricks"
+    ]
+  }
+}

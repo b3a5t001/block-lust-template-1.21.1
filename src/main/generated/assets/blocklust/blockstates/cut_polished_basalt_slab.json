@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/cut_polished_basalt_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/cut_polished_basalt"
+    },
+    "type=top": {
+      "model": "blocklust:block/cut_polished_basalt_slab_top"
+    }
+  }
+}

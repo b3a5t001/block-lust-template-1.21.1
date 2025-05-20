@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "blocklust:block/granite_bricks",
+    "side": "blocklust:block/granite_bricks",
+    "top": "blocklust:block/granite_bricks"
+  }
+}

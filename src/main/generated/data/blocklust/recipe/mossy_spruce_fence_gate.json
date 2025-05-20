@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "blocklust:mossy_spruce_planks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "RSR",
+    "RSR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "blocklust:mossy_spruce_fence_gate"
+  }
+}

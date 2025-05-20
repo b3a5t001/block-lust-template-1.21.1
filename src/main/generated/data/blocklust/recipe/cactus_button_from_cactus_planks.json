@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cactus_button_from_planks",
+  "ingredients": [
+    {
+      "item": "blocklust:cactus_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "blocklust:cactus_button"
+  }
+}

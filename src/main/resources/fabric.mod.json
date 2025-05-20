@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "blocklust",
+	"version": "1.21.1-1.1",
+	"name": "Block Lust",
+	"description": "This is an adavanced block mod that adds way more varieties then that of the base game and expands on base game blocks in a vanilla friendly fashion",
+	"authors": [
+		"b3a5t001"
+	],
+	"contact": {
+		"homepage": "N/A",
+		"sources": "N/A"
+	},
+	"license": "MIT",
+	"icon": "assets/blocklust/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.b3a5t001.blocklust.BlockLust"
+		],
+		"fabric-datagen": [
+			"com.b3a5t001.blocklust.BlockLustDataGenerator"
+		],
+		"client": [
+			"com.b3a5t001.blocklust.BlockLustClient"
+		]
+
+	},
+	"mixins": [
+		"blocklust.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

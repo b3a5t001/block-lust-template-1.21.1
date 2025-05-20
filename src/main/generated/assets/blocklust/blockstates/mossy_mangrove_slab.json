@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/mossy_mangrove_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/mossy_mangrove_planks"
+    },
+    "type=top": {
+      "model": "blocklust:block/mossy_mangrove_slab_top"
+    }
+  }
+}

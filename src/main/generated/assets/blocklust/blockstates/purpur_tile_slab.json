@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/purpur_tile_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/purpur_tiles"
+    },
+    "type=top": {
+      "model": "blocklust:block/purpur_tile_slab_top"
+    }
+  }
+}

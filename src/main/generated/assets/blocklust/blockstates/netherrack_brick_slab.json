@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/netherrack_brick_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/netherrack_bricks"
+    },
+    "type=top": {
+      "model": "blocklust:block/netherrack_brick_slab_top"
+    }
+  }
+}

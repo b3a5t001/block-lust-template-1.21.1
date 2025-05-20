@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/mossy_nether_bricks_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/mossy_nether_bricks"
+    },
+    "type=top": {
+      "model": "blocklust:block/mossy_nether_bricks_slab_top"
+    }
+  }
+}

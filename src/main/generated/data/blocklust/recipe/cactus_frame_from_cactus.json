@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cactus_frames_from_cactus",
+  "ingredients": [
+    {
+      "item": "minecraft:cactus"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "blocklust:cactus_frame"
+  }
+}

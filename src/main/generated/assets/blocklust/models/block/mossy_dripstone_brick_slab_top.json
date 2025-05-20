@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "blocklust:block/mossy_dripstone_bricks",
+    "side": "blocklust:block/mossy_dripstone_bricks",
+    "top": "blocklust:block/mossy_dripstone_bricks"
+  }
+}

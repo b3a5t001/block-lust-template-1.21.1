@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocklust:basalt_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "blocklust:basalt_brick_stairs"
+  }
+}

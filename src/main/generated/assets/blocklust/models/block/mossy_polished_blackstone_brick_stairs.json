@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "blocklust:block/mossy_polished_blackstone_bricks",
+    "side": "blocklust:block/mossy_polished_blackstone_bricks",
+    "top": "blocklust:block/mossy_polished_blackstone_bricks"
+  }
+}

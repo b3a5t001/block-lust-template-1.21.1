@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/mossy_diorite_brick_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/mossy_diorite_bricks"
+    },
+    "type=top": {
+      "model": "blocklust:block/mossy_diorite_brick_slab_top"
+    }
+  }
+}

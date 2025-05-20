@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocklust:calcite_bricks"
+  },
+  "result": {
+    "count": 2,
+    "id": "blocklust:calcite_brick_slab"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "blocklust:mossy_sources"
+    },
+    {
+      "item": "blocklust:polished_blackstone_tiles"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "blocklust:mossy_polished_blackstone_tiles"
+  }
+}

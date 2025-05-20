@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "blocklust:block/phantom_dripstone",
+    "side": "blocklust:block/phantom_dripstone",
+    "top": "blocklust:block/phantom_dripstone"
+  }
+}

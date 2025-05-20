@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "copper_from_granite_ore",
+  "ingredient": {
+    "item": "blocklust:granite_copper_ore"
+  },
+  "result": {
+    "id": "minecraft:copper_ingot"
+  }
+}

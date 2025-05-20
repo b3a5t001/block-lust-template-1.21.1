@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "blocklust:block/mossy_stone_tiles"
+  }
+}

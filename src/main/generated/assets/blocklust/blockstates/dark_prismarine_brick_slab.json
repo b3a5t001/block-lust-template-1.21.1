@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/dark_prismarine_brick_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/dark_prismarine_bricks"
+    },
+    "type=top": {
+      "model": "blocklust:block/dark_prismarine_brick_slab_top"
+    }
+  }
+}

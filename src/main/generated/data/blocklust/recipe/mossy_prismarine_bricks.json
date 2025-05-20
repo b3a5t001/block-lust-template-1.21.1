@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "blocklust:mossy_sources"
+    },
+    {
+      "item": "minecraft:prismarine_bricks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "blocklust:mossy_prismarine_bricks"
+  }
+}

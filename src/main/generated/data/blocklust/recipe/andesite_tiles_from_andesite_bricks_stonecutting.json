@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocklust:andesite_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "blocklust:andesite_tiles"
+  }
+}

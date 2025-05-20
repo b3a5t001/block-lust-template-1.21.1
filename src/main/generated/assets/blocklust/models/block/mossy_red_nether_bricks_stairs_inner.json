@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "blocklust:block/mossy_red_nether_bricks",
+    "side": "blocklust:block/mossy_red_nether_bricks",
+    "top": "blocklust:block/mossy_red_nether_bricks"
+  }
+}

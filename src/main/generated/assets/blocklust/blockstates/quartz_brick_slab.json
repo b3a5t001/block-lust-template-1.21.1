@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/quartz_brick_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/phantom_quartz_bricks"
+    },
+    "type=top": {
+      "model": "blocklust:block/quartz_brick_slab_top"
+    }
+  }
+}

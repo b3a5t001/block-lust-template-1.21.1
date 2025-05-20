@@ -1,0 +1,27 @@
+{
+  "values": [
+    "blocklust:diorite_copper_ore",
+    "blocklust:diorite_iron_ore",
+    "blocklust:diorite_lapis_ore",
+    "blocklust:diorite_copper_ore",
+    "blocklust:diorite_iron_ore",
+    "blocklust:diorite_lapis_ore",
+    "blocklust:granite_copper_ore",
+    "blocklust:granite_iron_ore",
+    "blocklust:granite_lapis_ore",
+    "blocklust:calcite_copper_ore",
+    "blocklust:calcite_iron_ore",
+    "blocklust:calcite_lapis_ore",
+    "blocklust:dripstone_copper_ore",
+    "blocklust:dripstone_iron_ore",
+    "blocklust:dripstone_lapis_ore",
+    "blocklust:tuff_copper_ore",
+    "blocklust:tuff_iron_ore",
+    "blocklust:tuff_lapis_ore",
+    "blocklust:mossy_copper_ore",
+    "blocklust:mossy_iron_ore",
+    "blocklust:mossy_lapis_ore",
+    "blocklust:basalt_gold_ore",
+    "blocklust:basalt_quartz_ore"
+  ]
+}

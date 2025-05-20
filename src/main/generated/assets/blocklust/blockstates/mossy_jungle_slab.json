@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/mossy_jungle_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/mossy_jungle_planks"
+    },
+    "type=top": {
+      "model": "blocklust:block/mossy_jungle_slab_top"
+    }
+  }
+}

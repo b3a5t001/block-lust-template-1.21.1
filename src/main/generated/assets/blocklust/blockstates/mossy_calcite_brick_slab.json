@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/mossy_calcite_brick_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/mossy_calcite_bricks"
+    },
+    "type=top": {
+      "model": "blocklust:block/mossy_calcite_brick_slab_top"
+    }
+  }
+}

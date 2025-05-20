@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/andesite_tile_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/andesite_tiles"
+    },
+    "type=top": {
+      "model": "blocklust:block/andesite_tile_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "lapis_from_andesite_ore",
+  "ingredient": {
+    "item": "blocklust:andesite_lapis_ore"
+  },
+  "result": {
+    "id": "minecraft:lapis_lazuli"
+  }
+}

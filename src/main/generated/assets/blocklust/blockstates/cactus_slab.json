@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/cactus_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/cactus_planks"
+    },
+    "type=top": {
+      "model": "blocklust:block/cactus_slab_top"
+    }
+  }
+}

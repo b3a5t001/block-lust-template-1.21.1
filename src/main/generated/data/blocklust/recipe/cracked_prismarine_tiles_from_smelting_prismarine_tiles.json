@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "cracked_prismarine_tiles",
+  "ingredient": {
+    "item": "blocklust:prismarine_tiles"
+  },
+  "result": {
+    "id": "blocklust:cracked_prismarine_tiles"
+  }
+}

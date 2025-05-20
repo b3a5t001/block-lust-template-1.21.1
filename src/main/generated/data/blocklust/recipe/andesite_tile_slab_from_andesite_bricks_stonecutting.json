@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocklust:andesite_bricks"
+  },
+  "result": {
+    "count": 2,
+    "id": "blocklust:andesite_tile_slab"
+  }
+}

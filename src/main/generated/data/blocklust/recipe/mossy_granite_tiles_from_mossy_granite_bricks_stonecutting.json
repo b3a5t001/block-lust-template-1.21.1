@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocklust:mossy_granite_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "blocklust:mossy_granite_tiles"
+  }
+}

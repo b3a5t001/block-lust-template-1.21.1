@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "blocklust:mossy_sources"
+    },
+    {
+      "item": "minecraft:crimson_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "blocklust:mossy_crimson_planks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "cracked_polished_blackstone_tiles",
+  "ingredient": {
+    "item": "blocklust:polished_blackstone_tiles"
+  },
+  "result": {
+    "id": "blocklust:cracked_polished_blackstone_tiles"
+  }
+}

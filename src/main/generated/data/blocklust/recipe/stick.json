@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "blocklust:cactus_frame"
+    }
+  },
+  "pattern": [
+    "R ",
+    "R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stick"
+  }
+}

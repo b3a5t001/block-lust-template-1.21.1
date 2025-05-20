@@ -1,0 +1,31 @@
+{
+  "values": [
+    "blocklust:diorite_diamond_ore",
+    "blocklust:diorite_emerald_ore",
+    "blocklust:diorite_gold_ore",
+    "blocklust:diorite_redstone_ore",
+    "blocklust:diorite_diamond_ore",
+    "blocklust:diorite_emerald_ore",
+    "blocklust:diorite_gold_ore",
+    "blocklust:diorite_redstone_ore",
+    "blocklust:granite_diamond_ore",
+    "blocklust:granite_emerald_ore",
+    "blocklust:granite_gold_ore",
+    "blocklust:granite_redstone_ore",
+    "blocklust:calcite_diamond_ore",
+    "blocklust:calcite_emerald_ore",
+    "blocklust:calcite_gold_ore",
+    "blocklust:calcite_redstone_ore",
+    "blocklust:dripstone_diamond_ore",
+    "blocklust:dripstone_emerald_ore",
+    "blocklust:dripstone_gold_ore",
+    "blocklust:tuff_diamond_ore",
+    "blocklust:tuff_emerald_ore",
+    "blocklust:tuff_gold_ore",
+    "blocklust:tuff_redstone_ore",
+    "blocklust:mossy_diamond_ore",
+    "blocklust:mossy_emerald_ore",
+    "blocklust:mossy_gold_ore",
+    "blocklust:mossy_redstone_ore"
+  ]
+}

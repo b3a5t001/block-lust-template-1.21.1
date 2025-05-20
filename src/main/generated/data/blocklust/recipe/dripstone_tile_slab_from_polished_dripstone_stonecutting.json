@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocklust:polished_dripstone"
+  },
+  "result": {
+    "count": 2,
+    "id": "blocklust:dripstone_tile_slab"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "blocklust:prismarine_tiles"
+  },
+  "result": {
+    "count": 1,
+    "id": "blocklust:prismarine_tile_stairs"
+  }
+}

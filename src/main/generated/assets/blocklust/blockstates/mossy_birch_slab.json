@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/mossy_birch_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/mossy_birch_planks"
+    },
+    "type=top": {
+      "model": "blocklust:block/mossy_birch_slab_top"
+    }
+  }
+}

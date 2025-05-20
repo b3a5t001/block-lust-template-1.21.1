@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/mossy_purpur_tile_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/mossy_purpur_tiles"
+    },
+    "type=top": {
+      "model": "blocklust:block/mossy_purpur_tile_slab_top"
+    }
+  }
+}

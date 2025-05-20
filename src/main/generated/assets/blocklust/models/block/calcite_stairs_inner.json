@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "blocklust:block/phantom_calcite",
+    "side": "blocklust:block/phantom_calcite",
+    "top": "blocklust:block/phantom_calcite"
+  }
+}

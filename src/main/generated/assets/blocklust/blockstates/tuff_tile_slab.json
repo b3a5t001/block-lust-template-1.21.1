@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/tuff_tile_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/tuff_tiles"
+    },
+    "type=top": {
+      "model": "blocklust:block/tuff_tile_slab_top"
+    }
+  }
+}

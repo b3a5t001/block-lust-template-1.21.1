@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blocklust:block/end_stone_tile_slab"
+    },
+    "type=double": {
+      "model": "blocklust:block/end_stone_tiles"
+    },
+    "type=top": {
+      "model": "blocklust:block/end_stone_tile_slab_top"
+    }
+  }
+}

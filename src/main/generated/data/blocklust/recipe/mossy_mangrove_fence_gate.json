@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "blocklust:mossy_mangrove_planks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "RSR",
+    "RSR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "blocklust:mossy_mangrove_fence_gate"
+  }
+}

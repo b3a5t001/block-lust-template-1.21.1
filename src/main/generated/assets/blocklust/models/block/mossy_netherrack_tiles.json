@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "blocklust:block/mossy_netherrack_tiles"
+  }
+}

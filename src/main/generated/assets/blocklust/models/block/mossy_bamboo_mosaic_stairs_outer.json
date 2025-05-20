@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "blocklust:block/mossy_bamboo_mosaic",
+    "side": "blocklust:block/mossy_bamboo_mosaic",
+    "top": "blocklust:block/mossy_bamboo_mosaic"
+  }
+}
