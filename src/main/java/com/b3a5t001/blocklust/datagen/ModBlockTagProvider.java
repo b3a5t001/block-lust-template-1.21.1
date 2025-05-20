@@ -2,7 +2,6 @@ package com.b3a5t001.blocklust.datagen;
 
 import com.b3a5t001.blocklust.blocks.ModBlocks;
 import com.b3a5t001.blocklust.blocks.ModMossBlocks;
-import com.b3a5t001.blocklust.blocks.ModMossBlocks;
 import com.b3a5t001.blocklust.blocks.ModPlanks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
