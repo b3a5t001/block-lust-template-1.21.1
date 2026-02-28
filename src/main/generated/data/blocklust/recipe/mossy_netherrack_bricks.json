@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "tag": "blocklust:mossy_sources"
-    },
-    {
-      "item": "blocklust:netherrack_bricks"
-    }
+    "#blocklust:mossy_sources",
+    "blocklust:netherrack_bricks"
   ],
   "result": {
     "count": 1,

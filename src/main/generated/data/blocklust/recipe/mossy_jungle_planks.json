@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "tag": "blocklust:mossy_sources"
-    },
-    {
-      "item": "minecraft:jungle_planks"
-    }
+    "#blocklust:mossy_sources",
+    "minecraft:jungle_planks"
   ],
   "result": {
     "count": 1,

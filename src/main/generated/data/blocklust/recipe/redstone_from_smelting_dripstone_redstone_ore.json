@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.7,
   "group": "redstone_from_dripstone_ore",
-  "ingredient": {
-    "item": "blocklust:dripstone_redstone_ore"
-  },
+  "ingredient": "blocklust:dripstone_redstone_ore",
   "result": {
     "id": "minecraft:redstone"
   }

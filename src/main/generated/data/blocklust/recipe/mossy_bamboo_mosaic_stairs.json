@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:mossy_bamboo_mosaic"
-    }
+    "R": "blocklust:mossy_bamboo_mosaic"
   },
   "pattern": [
     "R  ",

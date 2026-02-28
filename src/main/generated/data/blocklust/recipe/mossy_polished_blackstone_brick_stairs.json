@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:mossy_polished_blackstone_bricks"
-    }
+    "R": "blocklust:mossy_polished_blackstone_bricks"
   },
   "pattern": [
     "R  ",

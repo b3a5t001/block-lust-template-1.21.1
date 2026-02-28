@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:cut_polished_basalt"
-  },
+  "ingredient": "blocklust:cut_polished_basalt",
   "result": {
     "count": 1,
     "id": "blocklust:cut_polished_basalt_wall"

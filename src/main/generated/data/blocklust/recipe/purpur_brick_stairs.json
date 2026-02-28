@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:purpur_bricks"
-    }
+    "R": "blocklust:purpur_bricks"
   },
   "pattern": [
     "R  ",

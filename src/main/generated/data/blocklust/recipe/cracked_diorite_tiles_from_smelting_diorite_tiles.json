@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_diorite_tiles",
-  "ingredient": {
-    "item": "blocklust:diorite_tiles"
-  },
+  "ingredient": "blocklust:diorite_tiles",
   "result": {
     "id": "blocklust:cracked_diorite_tiles"
   }

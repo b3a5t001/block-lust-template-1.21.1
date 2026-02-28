@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_prismarine_tiles",
-  "ingredient": {
-    "item": "blocklust:prismarine_tiles"
-  },
+  "ingredient": "blocklust:prismarine_tiles",
   "result": {
     "id": "blocklust:cracked_prismarine_tiles"
   }

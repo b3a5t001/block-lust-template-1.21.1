@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:mossy_mangrove_planks"
-    }
+    "R": "blocklust:mossy_mangrove_planks"
   },
   "pattern": [
     "R  ",

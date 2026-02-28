@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_basalt_bricks",
-  "ingredient": {
-    "item": "blocklust:basalt_bricks"
-  },
+  "ingredient": "blocklust:basalt_bricks",
   "result": {
     "id": "blocklust:cracked_basalt_bricks"
   }

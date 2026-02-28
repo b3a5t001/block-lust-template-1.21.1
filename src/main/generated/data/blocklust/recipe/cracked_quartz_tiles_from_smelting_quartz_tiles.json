@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_quartz_tiles",
-  "ingredient": {
-    "item": "blocklust:quartz_tiles"
-  },
+  "ingredient": "blocklust:quartz_tiles",
   "result": {
     "id": "blocklust:cracked_quartz_tiles"
   }

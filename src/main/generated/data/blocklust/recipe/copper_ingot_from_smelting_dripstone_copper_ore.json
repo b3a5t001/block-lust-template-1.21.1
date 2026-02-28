@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.7,
   "group": "copper_from_dripstone_ore",
-  "ingredient": {
-    "item": "blocklust:dripstone_copper_ore"
-  },
+  "ingredient": "blocklust:dripstone_copper_ore",
   "result": {
     "id": "minecraft:copper_ingot"
   }

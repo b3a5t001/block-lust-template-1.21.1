@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "tag": "blocklust:mossy_sources"
-    },
-    {
-      "item": "minecraft:end_stone_bricks"
-    }
+    "#blocklust:mossy_sources",
+    "minecraft:end_stone_bricks"
   ],
   "result": {
     "count": 1,

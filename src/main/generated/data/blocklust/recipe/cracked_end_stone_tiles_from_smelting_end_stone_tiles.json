@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_end_stone_tiles",
-  "ingredient": {
-    "item": "blocklust:end_stone_tiles"
-  },
+  "ingredient": "blocklust:end_stone_tiles",
   "result": {
     "id": "blocklust:cracked_end_stone_tiles"
   }

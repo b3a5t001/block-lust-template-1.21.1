@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 0.7,
   "group": "iron_from_diorite_ore",
-  "ingredient": {
-    "item": "blocklust:diorite_iron_ore"
-  },
+  "ingredient": "blocklust:diorite_iron_ore",
   "result": {
     "id": "minecraft:iron_ingot"
   }

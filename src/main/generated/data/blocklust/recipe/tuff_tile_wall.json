@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "blocklust:tuff_tiles"
-    }
+    "#": "blocklust:tuff_tiles"
   },
   "pattern": [
     "###",

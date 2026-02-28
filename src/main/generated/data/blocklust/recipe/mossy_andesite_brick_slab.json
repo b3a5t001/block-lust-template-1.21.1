@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "blocklust:mossy_andesite_bricks"
-    }
+    "#": "blocklust:mossy_andesite_bricks"
   },
   "pattern": [
     "###"

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:diorite_bricks"
-    }
+    "R": "blocklust:diorite_bricks"
   },
   "pattern": [
     "R  ",

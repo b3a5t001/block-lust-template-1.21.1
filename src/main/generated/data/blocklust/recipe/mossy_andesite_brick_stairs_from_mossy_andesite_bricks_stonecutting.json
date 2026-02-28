@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:mossy_andesite_bricks"
-  },
+  "ingredient": "blocklust:mossy_andesite_bricks",
   "result": {
     "count": 1,
     "id": "blocklust:mossy_andesite_brick_stairs"

@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_netherrack_tiles",
-  "ingredient": {
-    "item": "blocklust:netherrack_tiles"
-  },
+  "ingredient": "blocklust:netherrack_tiles",
   "result": {
     "id": "blocklust:cracked_netherrack_tiles"
   }

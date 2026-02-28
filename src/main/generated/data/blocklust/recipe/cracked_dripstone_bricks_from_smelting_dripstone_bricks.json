@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_dripstone_bricks",
-  "ingredient": {
-    "item": "blocklust:dripstone_bricks"
-  },
+  "ingredient": "blocklust:dripstone_bricks",
   "result": {
     "id": "blocklust:cracked_dripstone_bricks"
   }

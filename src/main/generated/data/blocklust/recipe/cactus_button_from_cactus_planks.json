@@ -3,9 +3,7 @@
   "category": "misc",
   "group": "cactus_button_from_planks",
   "ingredients": [
-    {
-      "item": "blocklust:cactus_planks"
-    }
+    "blocklust:cactus_planks"
   ],
   "result": {
     "count": 1,

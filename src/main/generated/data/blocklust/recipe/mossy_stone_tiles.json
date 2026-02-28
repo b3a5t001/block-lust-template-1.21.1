@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "tag": "blocklust:mossy_sources"
-    },
-    {
-      "item": "blocklust:stone_tiles"
-    }
+    "#blocklust:mossy_sources",
+    "blocklust:stone_tiles"
   ],
   "result": {
     "count": 1,

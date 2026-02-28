@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.7,
   "group": "redstone_from_diorite_ore",
-  "ingredient": {
-    "item": "blocklust:diorite_redstone_ore"
-  },
+  "ingredient": "blocklust:diorite_redstone_ore",
   "result": {
     "id": "minecraft:redstone"
   }

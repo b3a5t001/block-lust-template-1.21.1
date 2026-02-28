@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:calcite_tiles"
-  },
+  "ingredient": "blocklust:calcite_tiles",
   "result": {
     "count": 1,
     "id": "blocklust:calcite_tile_wall"

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:basalt_tiles"
-    }
+    "R": "blocklust:basalt_tiles"
   },
   "pattern": [
     "R  ",

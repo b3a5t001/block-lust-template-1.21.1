@@ -3,9 +3,7 @@
   "category": "misc",
   "group": "cactus_frames_from_cactus",
   "ingredients": [
-    {
-      "item": "minecraft:cactus"
-    }
+    "minecraft:cactus"
   ],
   "result": {
     "count": 1,

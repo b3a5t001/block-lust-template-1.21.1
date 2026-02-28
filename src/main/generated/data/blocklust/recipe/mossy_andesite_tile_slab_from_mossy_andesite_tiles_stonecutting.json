@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:mossy_andesite_tiles"
-  },
+  "ingredient": "blocklust:mossy_andesite_tiles",
   "result": {
     "count": 2,
     "id": "blocklust:mossy_andesite_tile_slab"

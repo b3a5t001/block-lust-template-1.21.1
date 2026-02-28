@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_calcite_bricks",
-  "ingredient": {
-    "item": "blocklust:calcite_bricks"
-  },
+  "ingredient": "blocklust:calcite_bricks",
   "result": {
     "id": "blocklust:cracked_calcite_bricks"
   }

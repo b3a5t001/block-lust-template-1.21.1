@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "S": {
-      "item": "blocklust:granite_bricks"
-    }
+    "S": "blocklust:granite_bricks"
   },
   "pattern": [
     "SS",

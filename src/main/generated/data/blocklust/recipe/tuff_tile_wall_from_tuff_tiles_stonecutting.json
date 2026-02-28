@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:tuff_tiles"
-  },
+  "ingredient": "blocklust:tuff_tiles",
   "result": {
     "count": 1,
     "id": "blocklust:tuff_tile_wall"

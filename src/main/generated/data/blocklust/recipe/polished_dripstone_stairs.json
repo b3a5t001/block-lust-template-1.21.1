@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:polished_dripstone"
-    }
+    "R": "blocklust:polished_dripstone"
   },
   "pattern": [
     "R  ",

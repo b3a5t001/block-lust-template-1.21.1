@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "S": {
-      "item": "blocklust:polished_netherrack"
-    }
+    "S": "blocklust:polished_netherrack"
   },
   "pattern": [
     "SS",

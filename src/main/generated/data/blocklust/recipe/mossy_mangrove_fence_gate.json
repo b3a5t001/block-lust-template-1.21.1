@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "minecraft:stick"
-    },
-    "S": {
-      "item": "blocklust:mossy_mangrove_planks"
-    }
+    "R": "minecraft:stick",
+    "S": "blocklust:mossy_mangrove_planks"
   },
   "pattern": [
     "   ",

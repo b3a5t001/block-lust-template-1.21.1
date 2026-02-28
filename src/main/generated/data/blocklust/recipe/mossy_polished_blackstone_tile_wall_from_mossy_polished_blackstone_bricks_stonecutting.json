@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:mossy_polished_blackstone_bricks"
-  },
+  "ingredient": "blocklust:mossy_polished_blackstone_bricks",
   "result": {
     "count": 1,
     "id": "blocklust:mossy_polished_blackstone_tile_wall"

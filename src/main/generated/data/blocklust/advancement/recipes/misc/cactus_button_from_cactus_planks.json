@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:cactus_button_from_cactus_planks"
+        "recipe": "blocklust:cactus_button_from_cactus_planks"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:cactus_button_from_cactus_planks"
+      "blocklust:cactus_button_from_cactus_planks"
     ]
   }
 }

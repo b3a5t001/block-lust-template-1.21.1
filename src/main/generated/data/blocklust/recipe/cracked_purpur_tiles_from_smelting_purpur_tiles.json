@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_purpur_tiles",
-  "ingredient": {
-    "item": "blocklust:purpur_tiles"
-  },
+  "ingredient": "blocklust:purpur_tiles",
   "result": {
     "id": "blocklust:cracked_purpur_tiles"
   }

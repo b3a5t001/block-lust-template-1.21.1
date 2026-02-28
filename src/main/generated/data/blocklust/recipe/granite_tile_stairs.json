@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:granite_tiles"
-    }
+    "R": "blocklust:granite_tiles"
   },
   "pattern": [
     "R  ",

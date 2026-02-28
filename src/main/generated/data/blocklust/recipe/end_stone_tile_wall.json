@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "blocklust:end_stone_tiles"
-    }
+    "#": "blocklust:end_stone_tiles"
   },
   "pattern": [
     "###",

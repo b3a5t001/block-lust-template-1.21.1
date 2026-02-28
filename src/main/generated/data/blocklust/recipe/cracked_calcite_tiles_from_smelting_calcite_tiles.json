@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_calcite_tiles",
-  "ingredient": {
-    "item": "blocklust:calcite_tiles"
-  },
+  "ingredient": "blocklust:calcite_tiles",
   "result": {
     "id": "blocklust:cracked_calcite_tiles"
   }

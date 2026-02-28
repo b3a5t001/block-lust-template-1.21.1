@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "blocklust:netherrack_tiles"
-    }
+    "#": "blocklust:netherrack_tiles"
   },
   "pattern": [
     "###",

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:dripstone_tiles"
-  },
+  "ingredient": "blocklust:dripstone_tiles",
   "result": {
     "count": 1,
     "id": "blocklust:dripstone_tile_wall"

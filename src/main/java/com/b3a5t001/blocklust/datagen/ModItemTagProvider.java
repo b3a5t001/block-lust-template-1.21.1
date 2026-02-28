@@ -18,15 +18,15 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(ItemTags.WOODEN_BUTTONS)
+        valueLookupBuilder(ItemTags.WOODEN_BUTTONS)
                 .add(ModPlanks.CACTUS_BUTTON.asItem());
-        getOrCreateTagBuilder(ItemTags.WOODEN_PRESSURE_PLATES)
+        valueLookupBuilder(ItemTags.WOODEN_PRESSURE_PLATES)
                 .add(ModPlanks.CACTUS_PRESSURE_PLATE.asItem());
-        getOrCreateTagBuilder(ItemTags.WOODEN_DOORS)
+        valueLookupBuilder(ItemTags.WOODEN_DOORS)
                 .add(ModPlanks.CACTUS_DOOR.asItem());
-        getOrCreateTagBuilder(ItemTags.WOODEN_TRAPDOORS)
+        valueLookupBuilder(ItemTags.WOODEN_TRAPDOORS)
                 .add(ModPlanks.CACTUS_TRAPDOOR.asItem());
-        getOrCreateTagBuilder(ItemTags.WOODEN_FENCES)
+        valueLookupBuilder(ItemTags.WOODEN_FENCES)
                 .add(ModPlanks.CACTUS_FENCE.asItem())
                 .add(ModPlanks.MOSSY_CACTUS_FENCE.asItem())
                 .add(ModPlanks.MOSSY_ACACIA_FENCE.asItem())
@@ -40,7 +40,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModPlanks.MOSSY_MANGROVE_FENCE.asItem())
                 .add(ModPlanks.MOSSY_SPRUCE_FENCE.asItem())
                 .add(ModPlanks.MOSSY_WARPED_FENCE.asItem());
-        getOrCreateTagBuilder(ItemTags.WOODEN_SLABS)
+        valueLookupBuilder(ItemTags.WOODEN_SLABS)
                 .add(ModPlanks.CACTUS_SLAB.asItem())
                 .add(ModPlanks.MOSSY_CACTUS_SLAB.asItem())
                 .add(ModPlanks.MOSSY_CHERRY_STAIRS.asItem())
@@ -55,7 +55,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModPlanks.MOSSY_MANGROVE_SLAB.asItem())
                 .add(ModPlanks.MOSSY_SPRUCE_PLANKS.asItem())
                 .add(ModPlanks.MOSSY_ACACIA_SLAB.asItem());
-        getOrCreateTagBuilder(ItemTags.WOODEN_STAIRS)
+        valueLookupBuilder(ItemTags.WOODEN_STAIRS)
                 .add(ModPlanks.CACTUS_STAIRS.asItem())
                 .add(ModPlanks.MOSSY_CACTUS_STAIRS.asItem())
                 .add(ModPlanks.MOSSY_BAMBOO_MOSAIC_STAIRS.asItem())
@@ -70,7 +70,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModPlanks.MOSSY_MANGROVE_STAIRS.asItem())
                 .add(ModPlanks.MOSSY_SPRUCE_STAIRS.asItem())
                 .add(ModPlanks.MOSSY_ACACIA_STAIRS.asItem());
-        getOrCreateTagBuilder(ItemTags.PLANKS)
+        valueLookupBuilder(ItemTags.PLANKS)
                 .add(ModPlanks.CACTUS_PLANKS.asItem())
                 .add(ModPlanks.MOSSY_CACTUS_PLANKS.asItem())
                 .add(ModPlanks.MOSSY_BIRCH_PLANKS.asItem())
@@ -84,7 +84,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModPlanks.MOSSY_MANGROVE_PLANKS.asItem())
                 .add(ModPlanks.MOSSY_SPRUCE_PLANKS.asItem())
                 .add(ModPlanks.MOSSY_WARPED_PLANKS.asItem());
-        getOrCreateTagBuilder(ModItemTags.MOSSY_SOURCES)
+        valueLookupBuilder(ModItemTags.MOSSY_SOURCES)
                 .add(Items.MOSS_BLOCK)
                 .add(Items.VINE);
 

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:quartz_tiles"
-  },
+  "ingredient": "blocklust:quartz_tiles",
   "result": {
     "count": 1,
     "id": "blocklust:quartz_tile_stairs"

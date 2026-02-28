@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:mossy_quartz_bricks"
-  },
+  "ingredient": "blocklust:mossy_quartz_bricks",
   "result": {
     "count": 1,
     "id": "blocklust:mossy_quartz_brick_wall"

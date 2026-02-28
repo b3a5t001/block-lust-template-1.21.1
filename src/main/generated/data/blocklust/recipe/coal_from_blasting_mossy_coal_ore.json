@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 0.1,
   "group": "coal_from_mossy_ore",
-  "ingredient": {
-    "item": "blocklust:mossy_coal_ore"
-  },
+  "ingredient": "blocklust:mossy_coal_ore",
   "result": {
     "id": "minecraft:coal"
   }

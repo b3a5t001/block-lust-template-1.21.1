@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "blocklust:calcite_tiles"
-    }
+    "#": "blocklust:calcite_tiles"
   },
   "pattern": [
     "###"

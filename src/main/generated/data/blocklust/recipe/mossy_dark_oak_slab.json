@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "blocklust:mossy_dark_oak_planks"
-    }
+    "#": "blocklust:mossy_dark_oak_planks"
   },
   "pattern": [
     "###"

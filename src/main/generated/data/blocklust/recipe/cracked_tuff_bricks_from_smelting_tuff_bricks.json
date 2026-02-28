@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_tuff_bricks",
-  "ingredient": {
-    "item": "minecraft:tuff_bricks"
-  },
+  "ingredient": "minecraft:tuff_bricks",
   "result": {
     "id": "blocklust:cracked_tuff_bricks"
   }

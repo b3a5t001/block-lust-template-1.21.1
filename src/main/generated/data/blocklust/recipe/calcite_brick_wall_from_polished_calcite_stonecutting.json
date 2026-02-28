@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:polished_calcite"
-  },
+  "ingredient": "blocklust:polished_calcite",
   "result": {
     "count": 1,
     "id": "blocklust:calcite_brick_wall"

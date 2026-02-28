@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 1.0,
   "group": "diamond_from_andesite_ore",
-  "ingredient": {
-    "item": "blocklust:andesite_diamond_ore"
-  },
+  "ingredient": "blocklust:andesite_diamond_ore",
   "result": {
     "id": "minecraft:diamond"
   }

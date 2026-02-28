@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:dripstone_bricks"
-  },
+  "ingredient": "blocklust:dripstone_bricks",
   "result": {
     "count": 1,
     "id": "blocklust:dripstone_brick_wall"

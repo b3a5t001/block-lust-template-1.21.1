@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_granite_tiles",
-  "ingredient": {
-    "item": "blocklust:granite_tiles"
-  },
+  "ingredient": "blocklust:granite_tiles",
   "result": {
     "id": "blocklust:cracked_granite_tiles"
   }

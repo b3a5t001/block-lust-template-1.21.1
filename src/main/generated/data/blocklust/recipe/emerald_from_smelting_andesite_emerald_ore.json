@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 1.0,
   "group": "emerald_from_andesite_ore",
-  "ingredient": {
-    "item": "blocklust:andesite_emerald_ore"
-  },
+  "ingredient": "blocklust:andesite_emerald_ore",
   "result": {
     "id": "minecraft:emerald"
   }

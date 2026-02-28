@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:mossy_bamboo_planks"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "R": "blocklust:mossy_bamboo_planks",
+    "S": "minecraft:stick"
   },
   "pattern": [
     "   ",

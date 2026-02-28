@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:cracked_basalt_tiles_from_smelting_basalt_tiles"
+        "recipe": "blocklust:cracked_basalt_tiles_from_smelting_basalt_tiles"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:cracked_basalt_tiles_from_smelting_basalt_tiles"
+      "blocklust:cracked_basalt_tiles_from_smelting_basalt_tiles"
     ]
   }
 }

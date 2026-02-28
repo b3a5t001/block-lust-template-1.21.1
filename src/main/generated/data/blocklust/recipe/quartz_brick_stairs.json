@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "minecraft:quartz_bricks"
-    }
+    "R": "minecraft:quartz_bricks"
   },
   "pattern": [
     "R  ",

@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 1.0,
   "group": "diamond_from_diorite_ore",
-  "ingredient": {
-    "item": "blocklust:diorite_diamond_ore"
-  },
+  "ingredient": "blocklust:diorite_diamond_ore",
   "result": {
     "id": "minecraft:diamond"
   }

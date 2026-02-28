@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 1.0,
   "group": "emerald_from_tuff_ore",
-  "ingredient": {
-    "item": "blocklust:tuff_emerald_ore"
-  },
+  "ingredient": "blocklust:tuff_emerald_ore",
   "result": {
     "id": "minecraft:emerald"
   }

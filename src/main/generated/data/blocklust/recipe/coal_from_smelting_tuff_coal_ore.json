@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.1,
   "group": "coal_from_tuff_ore",
-  "ingredient": {
-    "item": "blocklust:tuff_coal_ore"
-  },
+  "ingredient": "blocklust:tuff_coal_ore",
   "result": {
     "id": "minecraft:coal"
   }

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:polished_dripstone"
-  },
+  "ingredient": "blocklust:polished_dripstone",
   "result": {
     "count": 1,
     "id": "blocklust:polished_dripstone_stairs"

@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:cactus_planks"
-    }
+    "R": "blocklust:cactus_planks"
   },
   "pattern": [
     "R  ",

@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_andesite_tiles",
-  "ingredient": {
-    "item": "blocklust:andesite_tiles"
-  },
+  "ingredient": "blocklust:andesite_tiles",
   "result": {
     "id": "blocklust:cracked_andesite_tiles"
   }

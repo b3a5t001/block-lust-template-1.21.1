@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "lapis_from_mossy_ore",
-  "ingredient": {
-    "item": "blocklust:mossy_lapis_ore"
-  },
+  "ingredient": "blocklust:mossy_lapis_ore",
   "result": {
     "id": "minecraft:lapis_lazuli"
   }

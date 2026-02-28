@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_netherrack_bricks",
-  "ingredient": {
-    "item": "blocklust:netherrack_bricks"
-  },
+  "ingredient": "blocklust:netherrack_bricks",
   "result": {
     "id": "blocklust:cracked_netherrack_bricks"
   }

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "tag": "blocklust:mossy_sources"
-    },
-    {
-      "item": "minecraft:tuff_bricks"
-    }
+    "#blocklust:mossy_sources",
+    "minecraft:tuff_bricks"
   ],
   "result": {
     "count": 1,

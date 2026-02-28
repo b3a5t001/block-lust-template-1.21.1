@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "S": {
-      "item": "blocklust:polished_calcite"
-    }
+    "S": "blocklust:polished_calcite"
   },
   "pattern": [
     "SS",

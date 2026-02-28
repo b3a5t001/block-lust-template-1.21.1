@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_prismarine_bricks",
-  "ingredient": {
-    "item": "minecraft:prismarine_bricks"
-  },
+  "ingredient": "minecraft:prismarine_bricks",
   "result": {
     "id": "blocklust:cracked_prismarine_bricks"
   }

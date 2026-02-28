@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_tuff_tiles",
-  "ingredient": {
-    "item": "blocklust:tuff_tiles"
-  },
+  "ingredient": "blocklust:tuff_tiles",
   "result": {
     "id": "blocklust:cracked_tuff_tiles"
   }

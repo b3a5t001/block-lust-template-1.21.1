@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_dripstone_tiles",
-  "ingredient": {
-    "item": "blocklust:dripstone_tiles"
-  },
+  "ingredient": "blocklust:dripstone_tiles",
   "result": {
     "id": "blocklust:cracked_dripstone_tiles"
   }

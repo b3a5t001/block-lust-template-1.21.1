@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:quartz_tiles"
-    }
+    "R": "blocklust:quartz_tiles"
   },
   "pattern": [
     "R  ",

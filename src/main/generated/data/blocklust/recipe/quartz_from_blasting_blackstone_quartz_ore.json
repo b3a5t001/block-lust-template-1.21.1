@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 1.0,
   "group": "quartz_from_blackstone_ore",
-  "ingredient": {
-    "item": "blocklust:blackstone_quartz_ore"
-  },
+  "ingredient": "blocklust:blackstone_quartz_ore",
   "result": {
     "id": "minecraft:quartz"
   }

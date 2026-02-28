@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "blocklust:mossy_dark_prismarine_bricks"
-  },
+  "ingredient": "blocklust:mossy_dark_prismarine_bricks",
   "result": {
     "count": 1,
     "id": "blocklust:mossy_dark_prismarine_tile_wall"

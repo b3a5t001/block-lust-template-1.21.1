@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.1,
   "group": "coal_from_calcite_ore",
-  "ingredient": {
-    "item": "blocklust:calcite_coal_ore"
-  },
+  "ingredient": "blocklust:calcite_coal_ore",
   "result": {
     "id": "minecraft:coal"
   }

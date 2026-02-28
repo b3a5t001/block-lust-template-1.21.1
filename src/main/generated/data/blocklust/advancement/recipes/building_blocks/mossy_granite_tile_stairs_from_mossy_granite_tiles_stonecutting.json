@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:mossy_granite_tile_stairs_from_mossy_granite_tiles_stonecutting"
+        "recipe": "blocklust:mossy_granite_tile_stairs_from_mossy_granite_tiles_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:mossy_granite_tile_stairs_from_mossy_granite_tiles_stonecutting"
+      "blocklust:mossy_granite_tile_stairs_from_mossy_granite_tiles_stonecutting"
     ]
   }
 }

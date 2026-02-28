@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:mossy_tuff_bricks"
-    }
+    "R": "blocklust:mossy_tuff_bricks"
   },
   "pattern": [
     "R  ",

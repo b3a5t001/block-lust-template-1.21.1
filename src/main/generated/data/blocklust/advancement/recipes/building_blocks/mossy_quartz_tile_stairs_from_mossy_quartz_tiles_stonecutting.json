@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:mossy_quartz_tile_stairs_from_mossy_quartz_tiles_stonecutting"
+        "recipe": "blocklust:mossy_quartz_tile_stairs_from_mossy_quartz_tiles_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:mossy_quartz_tile_stairs_from_mossy_quartz_tiles_stonecutting"
+      "blocklust:mossy_quartz_tile_stairs_from_mossy_quartz_tiles_stonecutting"
     ]
   }
 }

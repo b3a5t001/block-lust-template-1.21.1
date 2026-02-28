@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_stone_tiles",
-  "ingredient": {
-    "item": "blocklust:stone_tiles"
-  },
+  "ingredient": "blocklust:stone_tiles",
   "result": {
     "id": "blocklust:cracked_stone_tiles"
   }

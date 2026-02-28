@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_quartz_bricks",
-  "ingredient": {
-    "item": "minecraft:quartz_bricks"
-  },
+  "ingredient": "minecraft:quartz_bricks",
   "result": {
     "id": "blocklust:cracked_quartz_bricks"
   }

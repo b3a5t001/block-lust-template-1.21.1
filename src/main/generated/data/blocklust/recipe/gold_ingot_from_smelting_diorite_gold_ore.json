@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 1.0,
   "group": "gold_from_diorite_ore",
-  "ingredient": {
-    "item": "blocklust:diorite_gold_ore"
-  },
+  "ingredient": "blocklust:diorite_gold_ore",
   "result": {
     "id": "minecraft:gold_ingot"
   }

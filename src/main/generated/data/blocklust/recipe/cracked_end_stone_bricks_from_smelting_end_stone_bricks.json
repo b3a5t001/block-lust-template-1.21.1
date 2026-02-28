@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_end_stone_bricks",
-  "ingredient": {
-    "item": "minecraft:end_stone_bricks"
-  },
+  "ingredient": "minecraft:end_stone_bricks",
   "result": {
     "id": "blocklust:cracked_end_stone_bricks"
   }

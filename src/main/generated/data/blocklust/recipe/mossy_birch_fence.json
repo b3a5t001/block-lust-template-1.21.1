@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:mossy_birch_planks"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "R": "blocklust:mossy_birch_planks",
+    "S": "minecraft:stick"
   },
   "pattern": [
     "   ",

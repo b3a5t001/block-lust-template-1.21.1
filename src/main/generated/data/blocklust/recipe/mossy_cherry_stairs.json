@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "R": {
-      "item": "blocklust:mossy_cherry_planks"
-    }
+    "R": "blocklust:mossy_cherry_planks"
   },
   "pattern": [
     "R  ",

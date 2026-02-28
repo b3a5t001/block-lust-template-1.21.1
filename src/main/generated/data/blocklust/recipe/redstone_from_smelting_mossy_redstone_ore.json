@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.7,
   "group": "redstone_from_mossy_ore",
-  "ingredient": {
-    "item": "blocklust:mossy_redstone_ore"
-  },
+  "ingredient": "blocklust:mossy_redstone_ore",
   "result": {
     "id": "minecraft:redstone"
   }

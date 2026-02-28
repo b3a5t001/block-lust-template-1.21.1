@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "blocklust:cut_polished_basalt"
-    }
+    "#": "blocklust:cut_polished_basalt"
   },
   "pattern": [
     "###",

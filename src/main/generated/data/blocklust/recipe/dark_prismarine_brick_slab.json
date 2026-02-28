@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "blocklust:dark_prismarine_bricks"
-    }
+    "#": "blocklust:dark_prismarine_bricks"
   },
   "pattern": [
     "###"

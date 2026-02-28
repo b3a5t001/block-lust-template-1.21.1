@@ -4,20 +4,22 @@ import com.b3a5t001.blocklust.blocks.ModBlocks;
 import com.b3a5t001.blocklust.blocks.ModMossBlocks;
 import com.b3a5t001.blocklust.blocks.ModPlanks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider.BlockTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
+
+public class ModBlockTagProvider extends BlockTagProvider {
+
     public ModBlockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.ANDESITE_BRICKS)
                 .add(ModBlocks.ANDESITE_BRICK_SLAB)
                 .add(ModBlocks.ANDESITE_BRICK_STAIRS)
@@ -376,7 +378,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModMossBlocks.MOSSY_MUD_BRICK_STAIRS)
                 .add(ModMossBlocks.MOSSY_MUD_BRICK_SLAB)
                 .add(ModMossBlocks.MOSSY_MUD_BRICK_WALL);
-        getOrCreateTagBuilder(BlockTags.SLABS)
+        valueLookupBuilder(BlockTags.SLABS)
                 .add(ModBlocks.DIORITE_BRICK_SLAB)
                 .add(ModMossBlocks.MOSSY_DIORITE_BRICK_SLAB)
                 .add(ModBlocks.DIORITE_TILE_SLAB)
@@ -458,7 +460,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModMossBlocks.MOSSY_NETHER_BRICK_SLAB)
                 .add(ModMossBlocks.MOSSY_RED_NETHER_BRICK_SLAB)
                 .add(ModMossBlocks.MOSSY_MUD_BRICK_SLAB);
-        getOrCreateTagBuilder(BlockTags.STAIRS)
+        valueLookupBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.DIORITE_BRICK_STAIRS)
                 .add(ModMossBlocks.MOSSY_DIORITE_BRICK_STAIRS)
                 .add(ModBlocks.DIORITE_TILE_STAIRS)
@@ -541,7 +543,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModMossBlocks.MOSSY_NETHER_BRICK_STAIRS)
                 .add(ModMossBlocks.MOSSY_RED_NETHER_BRICK_STAIRS)
                 .add(ModMossBlocks.MOSSY_MUD_BRICK_STAIRS);
-        getOrCreateTagBuilder(BlockTags.WALLS)
+        valueLookupBuilder(BlockTags.WALLS)
                 .add(ModBlocks.ANDESITE_BRICK_WALL)
                 .add(ModMossBlocks.MOSSY_ANDESITE_BRICK_WALL)
                 .add(ModBlocks.ANDESITE_TILE_WALL)
@@ -620,7 +622,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModMossBlocks.MOSSY_NETHER_BRICK_WALL)
                 .add(ModMossBlocks.MOSSY_RED_NETHER_BRICK_WALL)
                 .add(ModMossBlocks.MOSSY_MUD_BRICK_WALL);
-        getOrCreateTagBuilder(BlockTags.FENCES)
+        valueLookupBuilder(BlockTags.FENCES)
                 .add(ModPlanks.MOSSY_CACTUS_FENCE)
                 .add(ModPlanks.MOSSY_BIRCH_FENCE)
                 .add(ModPlanks.MOSSY_CHERRY_FENCE)
@@ -634,7 +636,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModPlanks.MOSSY_OAK_FENCE)
                 .add(ModPlanks.MOSSY_JUNGLE_FENCE)
                 .add(ModPlanks.CACTUS_FENCE);
-        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+        valueLookupBuilder(BlockTags.FENCE_GATES)
                 .add(ModPlanks.MOSSY_CACTUS_FENCE_GATE)
                 .add(ModPlanks.MOSSY_BIRCH_FENCE_GATE)
                 .add(ModPlanks.MOSSY_CHERRY_FENCE_GATE)
@@ -648,15 +650,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModPlanks.MOSSY_OAK_FENCE_GATE)
                 .add(ModPlanks.MOSSY_JUNGLE_FENCE_GATE)
                 .add(ModPlanks.CACTUS_FENCE_GATE);
-        getOrCreateTagBuilder(BlockTags.DOORS)
+        valueLookupBuilder(BlockTags.DOORS)
                 .add(ModPlanks.CACTUS_DOOR);
-        getOrCreateTagBuilder(BlockTags.TRAPDOORS)
+        valueLookupBuilder(BlockTags.TRAPDOORS)
                 .add(ModPlanks.CACTUS_TRAPDOOR);
-        getOrCreateTagBuilder(BlockTags. BUTTONS)
+        valueLookupBuilder(BlockTags. BUTTONS)
                 .add(ModPlanks.CACTUS_BUTTON);
-        getOrCreateTagBuilder(BlockTags. PRESSURE_PLATES)
+        valueLookupBuilder(BlockTags. PRESSURE_PLATES)
                 .add(ModPlanks.CACTUS_PRESSURE_PLATE);
-        getOrCreateTagBuilder(BlockTags. AXE_MINEABLE)
+        valueLookupBuilder(BlockTags. AXE_MINEABLE)
                 .add(ModPlanks.CACTUS_FRAME)
                 .add(ModPlanks.CACTUS_PLANKS)
                 .add(ModPlanks.CACTUS_SLAB)
@@ -730,7 +732,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModPlanks.MOSSY_JUNGLE_STAIRS)
                 .add(ModPlanks.MOSSY_JUNGLE_FENCE)
                 .add(ModPlanks.MOSSY_JUNGLE_FENCE_GATE);
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+        valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.DIORITE_DIAMOND_ORE)
                 .add(ModBlocks.DIORITE_EMERALD_ORE)
                 .add(ModBlocks.DIORITE_GOLD_ORE)
@@ -758,7 +760,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_EMERALD_ORE)
                 .add(ModBlocks.MOSSY_GOLD_ORE)
                 .add(ModBlocks.MOSSY_REDSTONE_ORE);
-        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+        valueLookupBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.DIORITE_COPPER_ORE)
                 .add(ModBlocks.DIORITE_IRON_ORE)
                 .add(ModBlocks.DIORITE_LAPIS_ORE)
@@ -782,7 +784,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MOSSY_LAPIS_ORE)
                 .add(ModBlocks.BASALT_GOLD_ORE)
                 .add(ModBlocks.BASALT_QUARTZ_ORE);
-        getOrCreateTagBuilder(BlockTags.COAL_ORES)
+        valueLookupBuilder(BlockTags.COAL_ORES)
                 .add(ModBlocks.ANDESITE_COAL_ORE)
                 .add(ModBlocks.DIORITE_COAL_ORE)
                 .add(ModBlocks.GRANITE_COAL_ORE)
@@ -790,7 +792,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DRIPSTONE_COAL_ORE)
                 .add(ModBlocks.TUFF_COAL_ORE)
                 .add(ModBlocks.MOSSY_COAL_ORE);
-        getOrCreateTagBuilder(BlockTags.COPPER_ORES)
+        valueLookupBuilder(BlockTags.COPPER_ORES)
                 .add(ModBlocks.ANDESITE_COPPER_ORE)
                 .add(ModBlocks.DIORITE_COPPER_ORE)
                 .add(ModBlocks.GRANITE_COPPER_ORE)
@@ -798,7 +800,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DRIPSTONE_COPPER_ORE)
                 .add(ModBlocks.TUFF_COPPER_ORE)
                 .add(ModBlocks.MOSSY_COPPER_ORE);
-        getOrCreateTagBuilder(BlockTags.LAPIS_ORES)
+        valueLookupBuilder(BlockTags.LAPIS_ORES)
                 .add(ModBlocks.ANDESITE_LAPIS_ORE)
                 .add(ModBlocks.DIORITE_LAPIS_ORE)
                 .add(ModBlocks.GRANITE_LAPIS_ORE)
@@ -806,7 +808,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DRIPSTONE_LAPIS_ORE)
                 .add(ModBlocks.TUFF_LAPIS_ORE)
                 .add(ModBlocks.MOSSY_LAPIS_ORE);
-        getOrCreateTagBuilder(BlockTags.IRON_ORES)
+        valueLookupBuilder(BlockTags.IRON_ORES)
                 .add(ModBlocks.ANDESITE_IRON_ORE)
                 .add(ModBlocks.DIORITE_IRON_ORE)
                 .add(ModBlocks.GRANITE_IRON_ORE)
@@ -814,7 +816,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DRIPSTONE_IRON_ORE)
                 .add(ModBlocks.TUFF_IRON_ORE)
                 .add(ModBlocks.MOSSY_IRON_ORE);
-        getOrCreateTagBuilder(BlockTags.REDSTONE_ORES)
+        valueLookupBuilder(BlockTags.REDSTONE_ORES)
                 .add(ModBlocks.ANDESITE_REDSTONE_ORE)
                 .add(ModBlocks.DIORITE_REDSTONE_ORE)
                 .add(ModBlocks.GRANITE_REDSTONE_ORE)
@@ -822,7 +824,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DRIPSTONE_REDSTONE_ORE)
                 .add(ModBlocks.TUFF_REDSTONE_ORE)
                 .add(ModBlocks.MOSSY_REDSTONE_ORE);
-        getOrCreateTagBuilder(BlockTags.DIAMOND_ORES)
+        valueLookupBuilder(BlockTags.DIAMOND_ORES)
                 .add(ModBlocks.ANDESITE_DIAMOND_ORE)
                 .add(ModBlocks.DIORITE_DIAMOND_ORE)
                 .add(ModBlocks.GRANITE_DIAMOND_ORE)
@@ -830,7 +832,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DRIPSTONE_DIAMOND_ORE)
                 .add(ModBlocks.TUFF_DIAMOND_ORE)
                 .add(ModBlocks.MOSSY_DIAMOND_ORE);
-        getOrCreateTagBuilder(BlockTags.EMERALD_ORES)
+        valueLookupBuilder(BlockTags.EMERALD_ORES)
                 .add(ModBlocks.ANDESITE_EMERALD_ORE)
                 .add(ModBlocks.DIORITE_EMERALD_ORE)
                 .add(ModBlocks.GRANITE_EMERALD_ORE)
@@ -838,7 +840,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DRIPSTONE_EMERALD_ORE)
                 .add(ModBlocks.TUFF_EMERALD_ORE)
                 .add(ModBlocks.MOSSY_EMERALD_ORE);
-        getOrCreateTagBuilder(BlockTags.GOLD_ORES)
+        valueLookupBuilder(BlockTags.GOLD_ORES)
                 .add(ModBlocks.ANDESITE_GOLD_ORE)
                 .add(ModBlocks.DIORITE_GOLD_ORE)
                 .add(ModBlocks.GRANITE_GOLD_ORE)
@@ -847,7 +849,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TUFF_GOLD_ORE)
                 .add(ModBlocks.MOSSY_GOLD_ORE)
                 .add(ModBlocks.BASALT_GOLD_ORE);
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+        valueLookupBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.MOSSY_COAL_ORE)
                 .add(ModBlocks.MOSSY_DIAMOND_ORE)
                 .add(ModBlocks.MOSSY_EMERALD_ORE)

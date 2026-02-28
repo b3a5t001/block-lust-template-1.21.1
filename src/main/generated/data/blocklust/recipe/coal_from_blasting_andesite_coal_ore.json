@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 0.1,
   "group": "coal_from_andesite_ore",
-  "ingredient": {
-    "item": "blocklust:andesite_coal_ore"
-  },
+  "ingredient": "blocklust:andesite_coal_ore",
   "result": {
     "id": "minecraft:coal"
   }

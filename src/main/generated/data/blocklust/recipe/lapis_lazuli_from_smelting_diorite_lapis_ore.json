@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "lapis_from_diorite_ore",
-  "ingredient": {
-    "item": "blocklust:diorite_lapis_ore"
-  },
+  "ingredient": "blocklust:diorite_lapis_ore",
   "result": {
     "id": "minecraft:lapis_lazuli"
   }

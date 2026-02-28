@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
-      "item": "blocklust:mossy_quartz_tiles"
-    }
+    "#": "blocklust:mossy_quartz_tiles"
   },
   "pattern": [
     "###",

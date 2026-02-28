@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:cracked_quartz_bricks_from_smelting_quartz_bricks"
+        "recipe": "blocklust:cracked_quartz_bricks_from_smelting_quartz_bricks"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:cracked_quartz_bricks_from_smelting_quartz_bricks"
+      "blocklust:cracked_quartz_bricks_from_smelting_quartz_bricks"
     ]
   }
 }

@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_purpur_bricks",
-  "ingredient": {
-    "item": "blocklust:purpur_bricks"
-  },
+  "ingredient": "blocklust:purpur_bricks",
   "result": {
     "id": "blocklust:cracked_purpur_bricks"
   }

@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 1.0,
   "group": "emerald_from_diorite_ore",
-  "ingredient": {
-    "item": "blocklust:diorite_emerald_ore"
-  },
+  "ingredient": "blocklust:diorite_emerald_ore",
   "result": {
     "id": "minecraft:emerald"
   }

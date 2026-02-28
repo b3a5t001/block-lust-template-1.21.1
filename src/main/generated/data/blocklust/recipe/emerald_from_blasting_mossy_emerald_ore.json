@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 1.0,
   "group": "emerald_from_mossy_ore",
-  "ingredient": {
-    "item": "blocklust:mossy_emerald_ore"
-  },
+  "ingredient": "blocklust:mossy_emerald_ore",
   "result": {
     "id": "minecraft:emerald"
   }

@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 0.7,
   "group": "copper_from_calcite_ore",
-  "ingredient": {
-    "item": "blocklust:calcite_copper_ore"
-  },
+  "ingredient": "blocklust:calcite_copper_ore",
   "result": {
     "id": "minecraft:copper_ingot"
   }

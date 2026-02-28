@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:iron_ingot_from_blasting_tuff_iron_ore"
+        "recipe": "blocklust:iron_ingot_from_blasting_tuff_iron_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:iron_ingot_from_blasting_tuff_iron_ore"
+      "blocklust:iron_ingot_from_blasting_tuff_iron_ore"
     ]
   }
 }

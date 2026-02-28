@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.2,
   "group": "cracked_andesite_bricks",
-  "ingredient": {
-    "item": "blocklust:andesite_bricks"
-  },
+  "ingredient": "blocklust:andesite_bricks",
   "result": {
     "id": "blocklust:cracked_andesite_bricks"
   }

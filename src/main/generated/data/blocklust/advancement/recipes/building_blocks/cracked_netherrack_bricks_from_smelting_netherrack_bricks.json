@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:cracked_netherrack_bricks_from_smelting_netherrack_bricks"
+        "recipe": "blocklust:cracked_netherrack_bricks_from_smelting_netherrack_bricks"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:cracked_netherrack_bricks_from_smelting_netherrack_bricks"
+      "blocklust:cracked_netherrack_bricks_from_smelting_netherrack_bricks"
     ]
   }
 }

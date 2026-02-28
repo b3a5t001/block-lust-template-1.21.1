@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 0.2,
   "group": "lapis_from_calcite_ore",
-  "ingredient": {
-    "item": "blocklust:calcite_lapis_ore"
-  },
+  "ingredient": "blocklust:calcite_lapis_ore",
   "result": {
     "id": "minecraft:lapis_lazuli"
   }

@@ -4,9 +4,7 @@
   "cookingtime": 200,
   "experience": 0.1,
   "group": "coal_from_granite_ore",
-  "ingredient": {
-    "item": "blocklust:granite_coal_ore"
-  },
+  "ingredient": "blocklust:granite_coal_ore",
   "result": {
     "id": "minecraft:coal"
   }

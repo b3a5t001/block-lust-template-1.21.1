@@ -4,9 +4,7 @@
   "cookingtime": 100,
   "experience": 1.0,
   "group": "gold_from_dripstone_ore",
-  "ingredient": {
-    "item": "blocklust:dripstone_gold_ore"
-  },
+  "ingredient": "blocklust:dripstone_gold_ore",
   "result": {
     "id": "minecraft:gold_ingot"
   }
