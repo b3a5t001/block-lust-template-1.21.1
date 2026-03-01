@@ -5,7 +5,14 @@ import com.b3a5t001.blocklust.blocks.ModMossBlocks;
 import com.b3a5t001.blocklust.blocks.ModPlanks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.client.data.*;
+import net.minecraft.client.render.model.json.ModelVariant;
+import net.minecraft.client.render.model.json.WeightedVariant;
+import net.minecraft.util.BlockRotation;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.collection.Pool;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -37,7 +44,7 @@ public class ModModelProvider extends FabricModelProvider {
         mossyAndesiteTilesPool.wall(ModMossBlocks.MOSSY_ANDESITE_TILE_WALL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_ANDESITE_TILES);
         BlockStateModelGenerator.BlockTexturePool polishedAndesitePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_POLISHED_ANDESITE);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_ANDESITE);
         polishedAndesitePool.wall(ModBlocks.POLISHED_ANDESITE_WALL);
 
         BlockStateModelGenerator.BlockTexturePool graniteBricksPool =
@@ -63,8 +70,9 @@ public class ModModelProvider extends FabricModelProvider {
         mossyGraniteTilesPool.wall(ModMossBlocks.MOSSY_GRANITE_TILE_WALL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_GRANITE_TILES);
         BlockStateModelGenerator.BlockTexturePool polishedGranitePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_POLISHED_GRANITE);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_GRANITE);
         polishedGranitePool.wall(ModBlocks.POLISHED_GRANITE_WALL);
+
         BlockStateModelGenerator.BlockTexturePool dioriteBricksPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DIORITE_BRICKS);
         dioriteBricksPool.slab(ModBlocks.DIORITE_BRICK_SLAB);
@@ -88,13 +96,13 @@ public class ModModelProvider extends FabricModelProvider {
         mossyDioriteTilesPool.wall(ModMossBlocks.MOSSY_DIORITE_TILE_WALL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_DIORITE_TILES);
         BlockStateModelGenerator.BlockTexturePool polishedDioritePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_POLISHED_DIORITE);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_DIORITE);
         polishedDioritePool.wall(ModBlocks.POLISHED_DIORITE_WALL);
-        
+
         BlockStateModelGenerator.BlockTexturePool smoothStonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_SMOOTH_STONE);
-        smoothStonePool.wall(ModBlocks.SMOOTH_STONE_WALL);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_STONE);
         smoothStonePool.stairs(ModBlocks.SMOOTH_STONE_STAIRS);
+        smoothStonePool.wall(ModBlocks.SMOOTH_STONE_WALL);
         BlockStateModelGenerator.BlockTexturePool stoneTilesPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STONE_TILES);
         stoneTilesPool.slab(ModBlocks.STONE_TILE_SLAB);
@@ -107,11 +115,11 @@ public class ModModelProvider extends FabricModelProvider {
         mossyStoneTilesPool.wall(ModMossBlocks.MOSSY_STONE_TILE_WALL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_STONE_TILES);
         BlockStateModelGenerator.BlockTexturePool stonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_STONE);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.STONE);
         stonePool.wall(ModBlocks.STONE_WALL);
-        
+
         BlockStateModelGenerator.BlockTexturePool calcitePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_CALCITE);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CALCITE);
         calcitePool.wall(ModBlocks.CALCITE_WALL);
         calcitePool.stairs(ModBlocks.CALCITE_STAIRS);
         calcitePool.slab(ModBlocks.CALCITE_SLAB);
@@ -144,7 +152,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_CALCITE_TILES);
         
         BlockStateModelGenerator.BlockTexturePool netherrackPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_NETHERRACK);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.NETHERRACK);
         netherrackPool.wall(ModBlocks.NETHERRACK_WALL);
         netherrackPool.stairs(ModBlocks.NETHERRACK_STAIRS);
         netherrackPool.slab(ModBlocks.NETHERRACK_SLAB);
@@ -177,7 +185,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_NETHERRACK_TILES);
         
         BlockStateModelGenerator.BlockTexturePool endStonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_END_STONE);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.END_STONE);
         endStonePool.wall(ModBlocks.END_STONE_WALL);
         endStonePool.stairs(ModBlocks.END_STONE_STAIRS);
         endStonePool.slab(ModBlocks.END_STONE_SLAB);
@@ -200,13 +208,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_END_STONE_TILES);
         
         BlockStateModelGenerator.BlockTexturePool quartzPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_QUARTZ);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.QUARTZ);
         quartzPool.wall(ModBlocks.QUARTZ_WALL);
         BlockStateModelGenerator.BlockTexturePool smoothQuartzPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_SMOOTH_QUARTZ);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SMOOTH_QUARTZ);
         smoothQuartzPool.wall(ModBlocks.SMOOTH_QUARTZ_WALL);
         BlockStateModelGenerator.BlockTexturePool quartzBricksPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_QUARTZ_BRICKS);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.QUARTZ_BRICKS);
         quartzBricksPool.slab(ModBlocks.QUARTZ_BRICK_SLAB);
         quartzBricksPool.stairs(ModBlocks.QUARTZ_BRICK_STAIRS);
         quartzBricksPool.wall(ModBlocks.QUARTZ_BRICK_WALL);
@@ -229,7 +237,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_QUARTZ_TILES);
 
         BlockStateModelGenerator.BlockTexturePool darkPrismarinePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_DARK_PRISMARINE);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_PRISMARINE);
         darkPrismarinePool.wall(ModBlocks.DARK_PRISMARINE_WALL);
         BlockStateModelGenerator.BlockTexturePool darkPrismarineBricksPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DARK_PRISMARINE_BRICKS);
@@ -255,7 +263,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_DARK_PRISMARINE_TILES);
         
         BlockStateModelGenerator.BlockTexturePool dripstonePool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_DRIPSTONE);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DRIPSTONE);
         dripstonePool.wall(ModBlocks.DRIPSTONE_WALL);
         dripstonePool.stairs(ModBlocks.DRIPSTONE_STAIRS);
         dripstonePool.slab(ModBlocks.DRIPSTONE_SLAB);
@@ -288,7 +296,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_DRIPSTONE_TILES);
         
         BlockStateModelGenerator.BlockTexturePool purpurPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_PURPUR_BLOCK);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PURPUR_BLOCK);
         purpurPool.wall(ModBlocks.PURPUR_WALL);
         BlockStateModelGenerator.BlockTexturePool purpurBricksPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PURPUR_BRICKS);
@@ -514,7 +522,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_TUFF_TILES);
 
         BlockStateModelGenerator.BlockTexturePool prismarineBrickPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PHANTOM_PRISMARINE_BRICKS);
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PRISMARINE_BRICKS);
         prismarineBrickPool.wall(ModBlocks.PRISMARINE_BRICK_WALL);
         BlockStateModelGenerator.BlockTexturePool mossyPrismarineBricksPool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModMossBlocks.MOSSY_PRISMARINE_BRICKS);

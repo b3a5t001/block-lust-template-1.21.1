@@ -4,7 +4,7 @@
       "model": "blocklust:block/end_stone_slab"
     },
     "type=double": {
-      "model": "blocklust:block/phantom_end_stone"
+      "model": "blocklust:block/end_stone"
     },
     "type=top": {
       "model": "blocklust:block/end_stone_slab_top"

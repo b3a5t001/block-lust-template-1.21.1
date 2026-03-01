@@ -1,5 +1,6 @@
 package com.b3a5t001.blocklust.datagen.recipeproviders;
 
+import com.b3a5t001.blocklust.datagen.ModRecipeProvider;
 import com.b3a5t001.blocklust.blocks.ModBlocks;
 import com.b3a5t001.blocklust.blocks.ModMossBlocks;
 import com.b3a5t001.blocklust.util.ModItemTags;
@@ -27,13 +28,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_ANDESITE_BRICK_SLAB, ModMossBlocks.MOSSY_ANDESITE_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_ANDESITE_BRICK_WALL, ModMossBlocks.MOSSY_ANDESITE_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_ANDESITE_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_ANDESITE_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_ANDESITE_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_ANDESITE_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_ANDESITE_BRICK_STAIRS, ModMossBlocks.MOSSY_ANDESITE_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_ANDESITE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.ANDESITE_TILES)
@@ -43,13 +38,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_ANDESITE_TILE_SLAB, ModMossBlocks.MOSSY_ANDESITE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_ANDESITE_TILE_WALL, ModMossBlocks.MOSSY_ANDESITE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_ANDESITE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_ANDESITE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_ANDESITE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_ANDESITE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_ANDESITE_TILE_STAIRS, ModMossBlocks.MOSSY_ANDESITE_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_GRANITE_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -60,13 +49,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_GRANITE_BRICK_SLAB, ModMossBlocks.MOSSY_GRANITE_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_GRANITE_BRICK_WALL, ModMossBlocks.MOSSY_GRANITE_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_GRANITE_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_GRANITE_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_GRANITE_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_GRANITE_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_GRANITE_BRICK_STAIRS, ModMossBlocks.MOSSY_GRANITE_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_GRANITE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.GRANITE_TILES)
@@ -76,13 +59,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_GRANITE_TILE_SLAB, ModMossBlocks.MOSSY_GRANITE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_GRANITE_TILE_WALL, ModMossBlocks.MOSSY_GRANITE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_GRANITE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_GRANITE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_GRANITE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_GRANITE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_GRANITE_TILE_STAIRS, ModMossBlocks.MOSSY_GRANITE_TILES);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DIORITE_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.DIORITE_BRICKS)
@@ -92,13 +69,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DIORITE_BRICK_SLAB, ModMossBlocks.MOSSY_DIORITE_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DIORITE_BRICK_WALL, ModMossBlocks.MOSSY_DIORITE_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DIORITE_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_DIORITE_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_DIORITE_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_DIORITE_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_DIORITE_BRICK_STAIRS, ModMossBlocks.MOSSY_DIORITE_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DIORITE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.DIORITE_TILES)
@@ -108,13 +79,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DIORITE_TILE_SLAB, ModMossBlocks.MOSSY_DIORITE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DIORITE_TILE_WALL, ModMossBlocks.MOSSY_DIORITE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DIORITE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_DIORITE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_DIORITE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_DIORITE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_DIORITE_TILE_STAIRS, ModMossBlocks.MOSSY_DIORITE_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_STONE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -125,13 +90,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_STONE_TILE_SLAB, ModMossBlocks.MOSSY_STONE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_STONE_TILE_WALL, ModMossBlocks.MOSSY_STONE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_STONE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_STONE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_STONE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_STONE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_STONE_TILE_STAIRS, ModMossBlocks.MOSSY_STONE_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_CALCITE_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -142,13 +101,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_CALCITE_BRICK_SLAB, ModMossBlocks.MOSSY_CALCITE_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_CALCITE_BRICK_WALL, ModMossBlocks.MOSSY_CALCITE_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_CALCITE_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_CALCITE_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_CALCITE_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_CALCITE_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_CALCITE_BRICK_STAIRS, ModMossBlocks.MOSSY_CALCITE_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_CALCITE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.CALCITE_TILES)
@@ -158,13 +111,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_CALCITE_TILE_SLAB, ModMossBlocks.MOSSY_CALCITE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_CALCITE_TILE_WALL, ModMossBlocks.MOSSY_CALCITE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_CALCITE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_CALCITE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_CALCITE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_CALCITE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_CALCITE_TILE_STAIRS, ModMossBlocks.MOSSY_CALCITE_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_NETHERRACK_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -175,13 +122,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_NETHERRACK_BRICK_SLAB, ModMossBlocks.MOSSY_NETHERRACK_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_NETHERRACK_BRICK_WALL, ModMossBlocks.MOSSY_NETHERRACK_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_NETHERRACK_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_NETHERRACK_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_NETHERRACK_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_NETHERRACK_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_NETHERRACK_BRICK_STAIRS, ModMossBlocks.MOSSY_NETHERRACK_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_NETHERRACK_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.NETHERRACK_TILES)
@@ -191,13 +132,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_NETHERRACK_TILE_SLAB, ModMossBlocks.MOSSY_NETHERRACK_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_NETHERRACK_TILE_WALL, ModMossBlocks.MOSSY_NETHERRACK_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_NETHERRACK_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_NETHERRACK_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_NETHERRACK_TILES), conditionsFromItem(ModMossBlocks.MOSSY_NETHERRACK_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_NETHERRACK_TILE_STAIRS, ModMossBlocks.MOSSY_NETHERRACK_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_END_STONE_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -208,13 +143,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_END_STONE_BRICK_SLAB, ModMossBlocks.MOSSY_END_STONE_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_END_STONE_BRICK_WALL, ModMossBlocks.MOSSY_END_STONE_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_END_STONE_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_END_STONE_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_END_STONE_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_END_STONE_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_END_STONE_BRICK_STAIRS, ModMossBlocks.MOSSY_END_STONE_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_END_STONE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.END_STONE_TILES)
@@ -224,13 +153,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_END_STONE_TILE_SLAB, ModMossBlocks.MOSSY_END_STONE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_END_STONE_TILE_WALL, ModMossBlocks.MOSSY_END_STONE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_END_STONE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_END_STONE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_END_STONE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_END_STONE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_END_STONE_TILE_STAIRS, ModMossBlocks.MOSSY_END_STONE_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_QUARTZ_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -241,13 +164,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_QUARTZ_BRICK_SLAB, ModMossBlocks.MOSSY_QUARTZ_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_QUARTZ_BRICK_WALL, ModMossBlocks.MOSSY_QUARTZ_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_QUARTZ_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_QUARTZ_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_QUARTZ_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_QUARTZ_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_QUARTZ_BRICK_STAIRS, ModMossBlocks.MOSSY_QUARTZ_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_QUARTZ_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.QUARTZ_TILES)
@@ -257,13 +174,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_QUARTZ_TILE_SLAB, ModMossBlocks.MOSSY_QUARTZ_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_QUARTZ_TILE_WALL, ModMossBlocks.MOSSY_QUARTZ_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_QUARTZ_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_QUARTZ_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_QUARTZ_TILES), conditionsFromItem(ModMossBlocks.MOSSY_QUARTZ_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_QUARTZ_TILE_STAIRS, ModMossBlocks.MOSSY_QUARTZ_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_PURPUR_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -274,13 +185,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_PURPUR_BRICK_SLAB, ModMossBlocks.MOSSY_PURPUR_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_PURPUR_BRICK_WALL, ModMossBlocks.MOSSY_PURPUR_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_PURPUR_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_PURPUR_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_PURPUR_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_PURPUR_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_PURPUR_BRICK_STAIRS, ModMossBlocks.MOSSY_PURPUR_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_PURPUR_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.PURPUR_TILES)
@@ -290,13 +195,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_PURPUR_TILE_SLAB, ModMossBlocks.MOSSY_PURPUR_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_PURPUR_TILE_WALL, ModMossBlocks.MOSSY_PURPUR_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_PURPUR_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_PURPUR_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_PURPUR_TILES), conditionsFromItem(ModMossBlocks.MOSSY_PURPUR_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_PURPUR_TILE_STAIRS, ModMossBlocks.MOSSY_PURPUR_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -307,13 +206,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICK_SLAB, ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICK_WALL, ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICK_STAIRS, ModMossBlocks.MOSSY_DARK_PRISMARINE_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DARK_PRISMARINE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.DARK_PRISMARINE_TILES)
@@ -323,13 +216,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DARK_PRISMARINE_TILE_SLAB, ModMossBlocks.MOSSY_DARK_PRISMARINE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DARK_PRISMARINE_TILE_WALL, ModMossBlocks.MOSSY_DARK_PRISMARINE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DARK_PRISMARINE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_DARK_PRISMARINE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_DARK_PRISMARINE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_DARK_PRISMARINE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_DARK_PRISMARINE_TILE_STAIRS, ModMossBlocks.MOSSY_DARK_PRISMARINE_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DRIPSTONE_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -340,13 +227,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DRIPSTONE_BRICK_SLAB, ModMossBlocks.MOSSY_DRIPSTONE_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DRIPSTONE_BRICK_WALL, ModMossBlocks.MOSSY_DRIPSTONE_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DRIPSTONE_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_DRIPSTONE_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_DRIPSTONE_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_DRIPSTONE_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_DRIPSTONE_BRICK_STAIRS, ModMossBlocks.MOSSY_DRIPSTONE_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DRIPSTONE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.DRIPSTONE_TILES)
@@ -356,13 +237,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DRIPSTONE_TILE_SLAB, ModMossBlocks.MOSSY_DRIPSTONE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DRIPSTONE_TILE_WALL, ModMossBlocks.MOSSY_DRIPSTONE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DRIPSTONE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_DRIPSTONE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_DRIPSTONE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_DRIPSTONE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_DRIPSTONE_TILE_STAIRS, ModMossBlocks.MOSSY_DRIPSTONE_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -373,13 +248,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_BRICK_WALL,ModMossBlocks.MOSSY_BRICKS);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_BRICK_SLAB,ModMossBlocks.MOSSY_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_BRICK_STAIRS, ModMossBlocks.MOSSY_BRICKS);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_NETHER_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -390,13 +259,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_NETHER_BRICK_WALL,ModMossBlocks.MOSSY_NETHER_BRICKS);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_NETHER_BRICK_SLAB,ModMossBlocks.MOSSY_NETHER_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_NETHER_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_NETHER_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_NETHER_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_NETHER_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_NETHER_BRICK_STAIRS, ModMossBlocks.MOSSY_NETHER_BRICKS);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_RED_NETHER_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -407,13 +270,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_RED_NETHER_BRICK_WALL,ModMossBlocks.MOSSY_NETHER_BRICKS);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_RED_NETHER_BRICK_SLAB,ModMossBlocks.MOSSY_NETHER_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_RED_NETHER_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_RED_NETHER_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_RED_NETHER_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_RED_NETHER_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_RED_NETHER_BRICK_STAIRS, ModMossBlocks.MOSSY_RED_NETHER_BRICKS);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_MUD_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -424,13 +281,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_MUD_BRICK_WALL,ModMossBlocks.MOSSY_MUD_BRICKS);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_MUD_BRICK_SLAB,ModMossBlocks.MOSSY_MUD_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_MUD_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_MUD_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_MUD_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_MUD_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_MUD_BRICK_STAIRS, ModMossBlocks.MOSSY_MUD_BRICKS);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -441,13 +292,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICK_SLAB, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICK_WALL, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICK_STAIRS, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.POLISHED_BLACKSTONE_TILES)
@@ -457,13 +302,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILE_SLAB, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILE_WALL, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILE_STAIRS, ModMossBlocks.MOSSY_POLISHED_BLACKSTONE_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_BASALT_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -474,13 +313,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_BASALT_BRICK_SLAB, ModMossBlocks.MOSSY_BASALT_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_BASALT_BRICK_WALL, ModMossBlocks.MOSSY_BASALT_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_BASALT_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_BASALT_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_BASALT_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_BASALT_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_BASALT_BRICK_STAIRS, ModMossBlocks.MOSSY_BASALT_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_BASALT_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.BASALT_TILES)
@@ -490,13 +323,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_BASALT_TILE_SLAB, ModMossBlocks.MOSSY_BASALT_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_BASALT_TILE_WALL, ModMossBlocks.MOSSY_BASALT_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_BASALT_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_BASALT_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_BASALT_TILES), conditionsFromItem(ModMossBlocks.MOSSY_BASALT_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_BASALT_TILE_STAIRS, ModMossBlocks.MOSSY_BASALT_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DEEPSLATE_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -507,13 +334,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DEEPSLATE_BRICK_SLAB, ModMossBlocks.MOSSY_DEEPSLATE_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DEEPSLATE_BRICK_WALL, ModMossBlocks.MOSSY_DEEPSLATE_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DEEPSLATE_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_DEEPSLATE_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_DEEPSLATE_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_DEEPSLATE_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_DEEPSLATE_BRICK_STAIRS, ModMossBlocks.MOSSY_DEEPSLATE_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DEEPSLATE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(Items.DEEPSLATE_TILES)
@@ -523,13 +344,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DEEPSLATE_TILE_SLAB, ModMossBlocks.MOSSY_DEEPSLATE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_DEEPSLATE_TILE_WALL, ModMossBlocks.MOSSY_DEEPSLATE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_DEEPSLATE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_DEEPSLATE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_DEEPSLATE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_DEEPSLATE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_DEEPSLATE_TILE_STAIRS, ModMossBlocks.MOSSY_DEEPSLATE_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_TUFF_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -540,13 +355,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_TUFF_BRICK_SLAB, ModMossBlocks.MOSSY_TUFF_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_TUFF_BRICK_WALL, ModMossBlocks.MOSSY_TUFF_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_TUFF_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_TUFF_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_TUFF_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_TUFF_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_TUFF_BRICK_STAIRS, ModMossBlocks.MOSSY_TUFF_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_TUFF_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.TUFF_TILES)
@@ -556,13 +365,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_TUFF_TILE_SLAB, ModMossBlocks.MOSSY_TUFF_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_TUFF_TILE_WALL, ModMossBlocks.MOSSY_TUFF_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_TUFF_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_TUFF_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_TUFF_TILES), conditionsFromItem(ModMossBlocks.MOSSY_TUFF_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_TUFF_TILE_STAIRS, ModMossBlocks.MOSSY_TUFF_TILES);
 
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_PRISMARINE_BRICKS)
                 .input(ModItemTags.MOSSY_SOURCES)
@@ -573,13 +376,7 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_PRISMARINE_BRICK_SLAB, ModMossBlocks.MOSSY_PRISMARINE_BRICKS);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_PRISMARINE_BRICK_WALL, ModMossBlocks.MOSSY_PRISMARINE_BRICKS);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_PRISMARINE_BRICK_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_PRISMARINE_BRICKS)
-                .criterion(hasItem(ModMossBlocks.MOSSY_PRISMARINE_BRICKS), conditionsFromItem(ModMossBlocks.MOSSY_PRISMARINE_BRICKS))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_PRISMARINE_BRICK_STAIRS, ModMossBlocks.MOSSY_PRISMARINE_BRICKS);
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_PRISMARINE_TILES)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(ModBlocks.PRISMARINE_TILES)
@@ -589,12 +386,6 @@ public class MossyStoneCraftingRecipes extends RecipeGenerator {
                 .offerTo(exporter);
         offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_PRISMARINE_TILE_SLAB, ModMossBlocks.MOSSY_PRISMARINE_TILES);
         offerWallRecipe(RecipeCategory.BUILDING_BLOCKS,ModMossBlocks.MOSSY_PRISMARINE_TILE_WALL, ModMossBlocks.MOSSY_PRISMARINE_TILES);
-        createShaped(RecipeCategory.BUILDING_BLOCKS, ModMossBlocks.MOSSY_PRISMARINE_TILE_STAIRS, 4)
-                .pattern("R  ")
-                .pattern("RR ")
-                .pattern("RRR")
-                .input('R', ModMossBlocks.MOSSY_PRISMARINE_TILES)
-                .criterion(hasItem(ModMossBlocks.MOSSY_PRISMARINE_TILES), conditionsFromItem(ModMossBlocks.MOSSY_PRISMARINE_TILES))
-                .offerTo(exporter);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModMossBlocks.MOSSY_PRISMARINE_TILE_STAIRS, ModMossBlocks.MOSSY_PRISMARINE_TILES);
     }
 }

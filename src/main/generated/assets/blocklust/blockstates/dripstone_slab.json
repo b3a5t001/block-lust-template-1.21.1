@@ -4,7 +4,7 @@
       "model": "blocklust:block/dripstone_slab"
     },
     "type=double": {
-      "model": "blocklust:block/phantom_dripstone"
+      "model": "blocklust:block/dripstone"
     },
     "type=top": {
       "model": "blocklust:block/dripstone_slab_top"

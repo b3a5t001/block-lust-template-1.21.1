@@ -4,7 +4,7 @@
       "model": "blocklust:block/calcite_slab"
     },
     "type=double": {
-      "model": "blocklust:block/phantom_calcite"
+      "model": "blocklust:block/calcite"
     },
     "type=top": {
       "model": "blocklust:block/calcite_slab_top"

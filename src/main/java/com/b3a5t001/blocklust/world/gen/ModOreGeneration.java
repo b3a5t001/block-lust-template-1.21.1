@@ -10,6 +10,7 @@ import net.minecraft.world.gen.GenerationStep;
 public class ModOreGeneration {
     
     public static void generateOres(){
+
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DRIPSTONE_CAVES),
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.DRIPSTONE_COAL_ORE_PLACED_KEY);    
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DRIPSTONE_CAVES),

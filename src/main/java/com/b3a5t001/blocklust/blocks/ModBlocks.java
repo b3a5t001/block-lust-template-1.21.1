@@ -39,9 +39,9 @@ public class ModBlocks {
             () -> new WallBlock(keyedCopy(Blocks.STONE)));
     public static final Block CRACKED_ANDESITE_TILES = registerBlock("cracked_andesite_tiles",
             () -> new Block(keyedCopy(Blocks.STONE)));
-    public static final Block PHANTOM_POLISHED_ANDESITE = registerBlock("phantom_polished_andesite",
-            () -> new Block(keyedCreate()));
     public static final Block POLISHED_ANDESITE_WALL = registerBlock("polished_andesite_wall",
+            () -> new WallBlock(keyedCopy(Blocks.STONE)));
+    public static final Block POLISHED_ANDESITE = registerBlock("polished_andesite",
             () -> new WallBlock(keyedCopy(Blocks.STONE)));
     
     public static final Block GRANITE_BRICKS = registerBlock("granite_bricks",
@@ -66,9 +66,9 @@ public class ModBlocks {
             () -> new WallBlock(keyedCopy(Blocks.STONE)));
     public static final Block CRACKED_GRANITE_TILES = registerBlock("cracked_granite_tiles",
             () -> new Block(keyedCopy(Blocks.STONE)));
-    public static final Block PHANTOM_POLISHED_GRANITE = registerBlock("phantom_polished_granite",
-            () -> new Block(keyedCreate()));
     public static final Block POLISHED_GRANITE_WALL = registerBlock("polished_granite_wall",
+            () -> new WallBlock(keyedCopy(Blocks.STONE)));
+    public static final Block POLISHED_GRANITE = registerBlock("polished_granite",
             () -> new WallBlock(keyedCopy(Blocks.STONE)));
     
     public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks",
@@ -93,21 +93,19 @@ public class ModBlocks {
             () -> new WallBlock(keyedCopy(Blocks.STONE)));
     public static final Block CRACKED_DIORITE_TILES = registerBlock("cracked_diorite_tiles",
             () -> new Block(keyedCopy(Blocks.STONE)));
-    public static final Block PHANTOM_POLISHED_DIORITE = registerBlock("phantom_polished_diorite",
-            () -> new Block(keyedCreate()));
     public static final Block POLISHED_DIORITE_WALL = registerBlock("polished_diorite_wall",
             () -> new WallBlock(keyedCopy(Blocks.STONE)));
-    
-    public static final Block PHANTOM_SMOOTH_STONE = registerBlock("phantom_smooth_stone",
-            () -> new Block(keyedCreate()));
+    public static final Block POLISHED_DIORITE = registerBlock("polished_diorite",
+            () -> new WallBlock(keyedCopy(Blocks.STONE)));
+
+    public static final Block SMOOTH_STONE = registerBlock("smooth_stone",
+            () -> new WallBlock(keyedCopy(Blocks.STONE)));
     public static final Block SMOOTH_STONE_WALL = registerBlock("smooth_stone_wall",
             () -> new WallBlock(keyedCopy(Blocks.STONE)));
-    public static final Block PHANTOM_STONE = registerBlock("phantom_stone",
-            () -> new Block(keyedCreate()));
     public static final Block STONE_WALL = registerBlock("stone_wall",
             () -> new WallBlock(keyedCopy(Blocks.STONE)));
     public static final Block SMOOTH_STONE_STAIRS = registerBlock("smooth_stone_stairs",
-            () -> new StairsBlock(ModBlocks.PHANTOM_SMOOTH_STONE.getDefaultState(),
+            () -> new StairsBlock(Blocks.SMOOTH_STONE.getDefaultState(),
                     keyedCopy(Blocks.STONE)));
     public static final Block STONE_TILES = registerBlock("stone_tiles",
             () -> new Block(keyedCopy(Blocks.STONE)));
@@ -281,10 +279,10 @@ public class ModBlocks {
             () -> new ExperienceDroppingBlock(UniformIntProvider.create(1,3),
                     keyedCopy(Blocks.BLACKSTONE)));
 
-    public static final Block PHANTOM_CALCITE = registerBlock("phantom_calcite",
+    public static final Block CALCITE = registerBlock("calcite",
             () -> new Block(keyedCopy(Blocks.CALCITE)));
     public static final Block CALCITE_STAIRS = registerBlock("calcite_stairs",
-            () -> new StairsBlock(ModBlocks.PHANTOM_CALCITE.getDefaultState(),
+            () -> new StairsBlock(ModBlocks.CALCITE.getDefaultState(),
                     keyedCopy(Blocks.CALCITE)));
     public static final Block CALCITE_SLAB = registerBlock("calcite_slab",
             () -> new SlabBlock(keyedCopy(Blocks.CALCITE)));
@@ -322,10 +320,10 @@ public class ModBlocks {
     public static final Block CRACKED_CALCITE_TILES = registerBlock("cracked_calcite_tiles",
             () -> new Block(keyedCopy(Blocks.CALCITE)));
 
-    public static final Block PHANTOM_NETHERRACK = registerBlock("phantom_netherrack",
+    public static final Block NETHERRACK = registerBlock("netherrack",
             () -> new Block(keyedCopy(Blocks.NETHERRACK)));
     public static final Block NETHERRACK_STAIRS = registerBlock("netherrack_stairs",
-            () -> new StairsBlock(ModBlocks.PHANTOM_NETHERRACK.getDefaultState(),
+            () -> new StairsBlock(ModBlocks.NETHERRACK.getDefaultState(),
                     keyedCopy(Blocks.NETHERRACK)));
     public static final Block NETHERRACK_SLAB = registerBlock("netherrack_slab",
             () -> new SlabBlock(keyedCopy(Blocks.NETHERRACK)));
@@ -363,10 +361,10 @@ public class ModBlocks {
     public static final Block CRACKED_NETHERRACK_TILES = registerBlock("cracked_netherrack_tiles",
             () -> new Block(keyedCopy(Blocks.NETHERRACK)));
 
-    public static final Block PHANTOM_END_STONE = registerBlock("phantom_end_stone",
+    public static final Block END_STONE = registerBlock("end_stone",
             () -> new Block(keyedCopy(Blocks.END_STONE)));
     public static final Block END_STONE_STAIRS = registerBlock("end_stone_stairs",
-            () -> new StairsBlock(ModBlocks.PHANTOM_END_STONE.getDefaultState(),
+            () -> new StairsBlock(ModBlocks.END_STONE.getDefaultState(),
                     keyedCopy(Blocks.END_STONE)));
     public static final Block END_STONE_SLAB = registerBlock("end_stone_slab",
             () -> new SlabBlock(keyedCopy(Blocks.END_STONE)));
@@ -386,10 +384,10 @@ public class ModBlocks {
     public static final Block CRACKED_END_STONE_TILES = registerBlock("cracked_end_stone_tiles",
             () -> new Block(keyedCopy(Blocks.END_STONE)));
 
-    public static final Block PHANTOM_DRIPSTONE = registerBlock("phantom_dripstone",
+    public static final Block DRIPSTONE = registerBlock("dripstone",
             () -> new Block(keyedCopy(Blocks.DRIPSTONE_BLOCK)));
     public static final Block DRIPSTONE_STAIRS = registerBlock("dripstone_stairs",
-            () -> new StairsBlock(ModBlocks.PHANTOM_DRIPSTONE.getDefaultState(),
+            () -> new StairsBlock(ModBlocks.DRIPSTONE.getDefaultState(),
                     keyedCopy(Blocks.DRIPSTONE_BLOCK)));
     public static final Block DRIPSTONE_SLAB = registerBlock("dripstone_slab",
             () -> new SlabBlock(keyedCopy(Blocks.DRIPSTONE_BLOCK)));
@@ -427,15 +425,15 @@ public class ModBlocks {
     public static final Block CRACKED_DRIPSTONE_TILES = registerBlock("cracked_dripstone_tiles",
             () -> new Block(keyedCopy(Blocks.DRIPSTONE_BLOCK)));
 
-    public static final Block PHANTOM_QUARTZ = registerBlock("phantom_quartz",
+    public static final Block QUARTZ = registerBlock("quartz",
             () -> new Block(keyedCopy(Blocks.QUARTZ_BLOCK)));
     public static final Block QUARTZ_WALL = registerBlock("quartz_wall",
             () -> new WallBlock(keyedCopy(Blocks.QUARTZ_BLOCK)));
-    public static final Block PHANTOM_SMOOTH_QUARTZ = registerBlock("phantom_smooth_quartz",
+    public static final Block SMOOTH_QUARTZ = registerBlock("smooth_quartz",
             () -> new Block(keyedCopy(Blocks.QUARTZ_BLOCK)));
     public static final Block SMOOTH_QUARTZ_WALL = registerBlock("smooth_quartz_wall",
             () -> new WallBlock(keyedCopy(Blocks.QUARTZ_BLOCK)));
-    public static final Block PHANTOM_QUARTZ_BRICKS = registerBlock("phantom_quartz_bricks",
+    public static final Block QUARTZ_BRICKS = registerBlock("quartz_bricks",
             () -> new Block(keyedCopy(Blocks.QUARTZ_BLOCK)));
     public static final Block QUARTZ_BRICK_STAIRS = registerBlock("quartz_brick_stairs",
             () -> new StairsBlock(Blocks.QUARTZ_BRICKS.getDefaultState(),
@@ -472,7 +470,7 @@ public class ModBlocks {
     public static final Block CRACKED_TUFF_TILES = registerBlock("cracked_tuff_tiles",
             () -> new Block(keyedCopy(Blocks.TUFF)));
     
-    public static final Block PHANTOM_PRISMARINE_BRICKS = registerBlock("phantom_prismarine_bricks",
+    public static final Block PRISMARINE_BRICKS = registerBlock("prismarine_bricks",
             () -> new Block(keyedCopy(Blocks.PRISMARINE)));
     public static final Block PRISMARINE_BRICK_WALL = registerBlock("prismarine_bricks_wall",
             () -> new WallBlock(keyedCopy(Blocks.PRISMARINE)));
@@ -490,7 +488,7 @@ public class ModBlocks {
     public static final Block CRACKED_PRISMARINE_TILES = registerBlock("cracked_prismarine_tiles",
             () -> new Block(keyedCopy(Blocks.PRISMARINE)));
     
-    public static final Block PHANTOM_DARK_PRISMARINE = registerBlock("phantom_dark_prismarine",
+    public static final Block DARK_PRISMARINE = registerBlock("dark_prismarine",
             () -> new Block(keyedCopy(Blocks.DARK_PRISMARINE)));
     public static final Block DARK_PRISMARINE_WALL = registerBlock("dark_prismarine_wall",
             () -> new WallBlock(keyedCopy(Blocks.DARK_PRISMARINE)));
@@ -561,7 +559,7 @@ public class ModBlocks {
     public static final Block CRACKED_POLISHED_BLACKSTONE_TILES = registerBlock("cracked_polished_blackstone_tiles",
             () -> new Block(keyedCopy(Blocks.BLACKSTONE)));
     
-    public static final Block PHANTOM_PURPUR_BLOCK = registerBlock("phantom_purpur_block",
+    public static final Block PURPUR_BLOCK = registerBlock("purpur_block",
             () -> new Block(keyedCopy(Blocks.PURPUR_BLOCK)));
     public static final Block PURPUR_WALL = registerBlock("purpur_wall",
             () -> new WallBlock(keyedCopy(Blocks.PURPUR_BLOCK)));

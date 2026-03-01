@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "bottom": "blocklust:block/phantom_end_stone",
-    "side": "blocklust:block/phantom_end_stone",
-    "top": "blocklust:block/phantom_end_stone"
+    "bottom": "blocklust:block/end_stone",
+    "side": "blocklust:block/end_stone",
+    "top": "blocklust:block/end_stone"
   }
 }

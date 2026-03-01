@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "blocklust:block/phantom_end_stone"
+    "wall": "blocklust:block/end_stone"
   }
 }

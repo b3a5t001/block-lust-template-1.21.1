@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/stairs",
   "textures": {
-    "bottom": "blocklust:block/phantom_netherrack",
-    "side": "blocklust:block/phantom_netherrack",
-    "top": "blocklust:block/phantom_netherrack"
+    "bottom": "blocklust:block/netherrack",
+    "side": "blocklust:block/netherrack",
+    "top": "blocklust:block/netherrack"
   }
 }
