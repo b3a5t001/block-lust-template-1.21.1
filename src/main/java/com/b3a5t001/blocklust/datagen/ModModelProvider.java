@@ -5,14 +5,8 @@ import com.b3a5t001.blocklust.blocks.ModMossBlocks;
 import com.b3a5t001.blocklust.blocks.ModPlanks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.data.*;
-import net.minecraft.client.render.model.json.ModelVariant;
-import net.minecraft.client.render.model.json.WeightedVariant;
-import net.minecraft.util.BlockRotation;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.collection.Pool;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -404,6 +398,13 @@ public class ModModelProvider extends FabricModelProvider {
         mossyDarkOakPool.fence(ModPlanks.MOSSY_DARK_OAK_FENCE);
         mossyDarkOakPool.fenceGate(ModPlanks.MOSSY_DARK_OAK_FENCE_GATE);
 
+        BlockStateModelGenerator.BlockTexturePool mossyPaleOakPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModPlanks.MOSSY_PALE_OAK_PLANKS);
+        mossyPaleOakPool.slab(ModPlanks.MOSSY_PALE_OAK_SLAB);
+        mossyPaleOakPool.stairs(ModPlanks.MOSSY_PALE_OAK_STAIRS);
+        mossyPaleOakPool.fence(ModPlanks.MOSSY_PALE_OAK_FENCE);
+        mossyPaleOakPool.fenceGate(ModPlanks.MOSSY_PALE_OAK_FENCE_GATE);
+
         BlockStateModelGenerator.BlockTexturePool mossyJunglePool =
                 blockStateModelGenerator.registerCubeAllModelTexturePool(ModPlanks.MOSSY_JUNGLE_PLANKS);
         mossyJunglePool.slab(ModPlanks.MOSSY_JUNGLE_SLAB);
@@ -541,68 +542,6 @@ public class ModModelProvider extends FabricModelProvider {
         mossyPrismarineTilesPool.stairs(ModMossBlocks.MOSSY_PRISMARINE_TILE_STAIRS);
         mossyPrismarineTilesPool.wall(ModMossBlocks.MOSSY_PRISMARINE_TILE_WALL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_PRISMARINE_TILES);
-        
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANDESITE_COAL_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANDESITE_COPPER_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANDESITE_EMERALD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANDESITE_DIAMOND_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANDESITE_GOLD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANDESITE_LAPIS_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANDESITE_IRON_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANDESITE_REDSTONE_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_COAL_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_COPPER_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_EMERALD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_DIAMOND_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_GOLD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_LAPIS_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_IRON_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_REDSTONE_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIORITE_COAL_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIORITE_COPPER_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIORITE_EMERALD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIORITE_DIAMOND_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIORITE_GOLD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIORITE_LAPIS_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIORITE_IRON_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIORITE_REDSTONE_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOSSY_COAL_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOSSY_COPPER_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOSSY_EMERALD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOSSY_DIAMOND_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOSSY_GOLD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOSSY_LAPIS_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOSSY_IRON_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MOSSY_REDSTONE_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CALCITE_COAL_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CALCITE_COPPER_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CALCITE_EMERALD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CALCITE_DIAMOND_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CALCITE_GOLD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CALCITE_LAPIS_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CALCITE_IRON_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CALCITE_REDSTONE_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIPSTONE_COAL_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIPSTONE_COPPER_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIPSTONE_EMERALD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIPSTONE_DIAMOND_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIPSTONE_GOLD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIPSTONE_LAPIS_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIPSTONE_IRON_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIPSTONE_REDSTONE_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_COAL_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_COPPER_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_EMERALD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_DIAMOND_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_GOLD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_LAPIS_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_IRON_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_REDSTONE_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BASALT_GOLD_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BASALT_QUARTZ_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACKSTONE_QUARTZ_ORE);
-
-
     }
 
     @Override

@@ -4,7 +4,7 @@ import com.b3a5t001.blocklust.blocks.ModBlocks;
 import com.b3a5t001.blocklust.blocks.ModMossBlocks;
 import com.b3a5t001.blocklust.blocks.ModPlanks;
 import com.b3a5t001.blocklust.items.ModItemGroup;
-import com.b3a5t001.blocklust.world.gen.ModWorldGeneration;
+import com.b3a5t001.blocklust.world.gen.ModOreGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
@@ -25,7 +25,7 @@ public class BlockLust implements ModInitializer {
 		ModPlanks.registerModPlanks();
 		ModMossBlocks.registerModMossBlocks();
 		ModItemGroup.registerItemGroups();
-		ModWorldGeneration.generateModWorldGen();
+		ModOreGeneration.generateOres();
 
 	}
 }

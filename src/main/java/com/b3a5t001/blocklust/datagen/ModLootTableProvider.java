@@ -143,6 +143,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModPlanks.MOSSY_DARK_OAK_STAIRS);
         addDrop(ModPlanks.MOSSY_DARK_OAK_FENCE);
         addDrop(ModPlanks.MOSSY_DARK_OAK_FENCE_GATE);
+        addDrop(ModPlanks.MOSSY_PALE_OAK_PLANKS);
+        addDrop(ModPlanks.MOSSY_PALE_OAK_SLAB, slabDrops(ModPlanks.MOSSY_PALE_OAK_SLAB));
+        addDrop(ModPlanks.MOSSY_PALE_OAK_STAIRS);
+        addDrop(ModPlanks.MOSSY_PALE_OAK_FENCE);
+        addDrop(ModPlanks.MOSSY_PALE_OAK_FENCE_GATE);
         addDrop(ModPlanks.MOSSY_CRIMSON_PLANKS);
         addDrop(ModPlanks.MOSSY_CRIMSON_SLAB, slabDrops(ModPlanks.MOSSY_CRIMSON_SLAB));
         addDrop(ModPlanks.MOSSY_CRIMSON_STAIRS);
@@ -408,72 +413,5 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModMossBlocks.MOSSY_DEEPSLATE_TILE_SLAB, slabDrops(ModMossBlocks.MOSSY_DEEPSLATE_TILE_SLAB));
         addDrop(ModMossBlocks.MOSSY_DEEPSLATE_TILE_STAIRS);
         addDrop(ModMossBlocks.MOSSY_DEEPSLATE_TILE_WALL);
-        addDrop(ModBlocks.ANDESITE_COAL_ORE, oreDrops(ModBlocks.ANDESITE_COAL_ORE, Items.COAL));
-        addDrop(ModBlocks.ANDESITE_EMERALD_ORE, oreDrops(ModBlocks.ANDESITE_EMERALD_ORE, Items.EMERALD));
-        addDrop(ModBlocks.ANDESITE_IRON_ORE, oreDrops(ModBlocks.ANDESITE_IRON_ORE, Items.RAW_IRON));
-        addDrop(ModBlocks.ANDESITE_GOLD_ORE, oreDrops(ModBlocks.ANDESITE_GOLD_ORE, Items.RAW_GOLD));
-        addDrop(ModBlocks.ANDESITE_DIAMOND_ORE, oreDrops(ModBlocks.ANDESITE_DIAMOND_ORE, Items.DIAMOND));
-        addDrop(ModBlocks.ANDESITE_COPPER_ORE, copperOreDrops(ModBlocks.ANDESITE_COPPER_ORE));
-        addDrop(ModBlocks.ANDESITE_LAPIS_ORE, lapisOreDrops(ModBlocks.ANDESITE_LAPIS_ORE));
-        addDrop(ModBlocks.ANDESITE_REDSTONE_ORE, redstoneOreDrops(ModBlocks.ANDESITE_REDSTONE_ORE));
-        addDrop(ModBlocks.GRANITE_COAL_ORE, oreDrops(ModBlocks.GRANITE_COAL_ORE, Items.COAL));
-        addDrop(ModBlocks.GRANITE_EMERALD_ORE, oreDrops(ModBlocks.GRANITE_EMERALD_ORE, Items.EMERALD));
-        addDrop(ModBlocks.GRANITE_IRON_ORE, oreDrops(ModBlocks.GRANITE_IRON_ORE, Items.RAW_IRON));
-        addDrop(ModBlocks.GRANITE_GOLD_ORE, oreDrops(ModBlocks.GRANITE_GOLD_ORE, Items.RAW_GOLD));
-        addDrop(ModBlocks.GRANITE_DIAMOND_ORE, oreDrops(ModBlocks.GRANITE_DIAMOND_ORE, Items.DIAMOND));
-        addDrop(ModBlocks.GRANITE_COPPER_ORE, copperOreDrops(ModBlocks.GRANITE_COPPER_ORE));
-        addDrop(ModBlocks.GRANITE_LAPIS_ORE, lapisOreDrops(ModBlocks.GRANITE_LAPIS_ORE));
-        addDrop(ModBlocks.GRANITE_REDSTONE_ORE, redstoneOreDrops(ModBlocks.GRANITE_REDSTONE_ORE));
-        addDrop(ModBlocks.DIORITE_COAL_ORE, oreDrops(ModBlocks.DIORITE_COAL_ORE, Items.COAL));
-        addDrop(ModBlocks.DIORITE_EMERALD_ORE, oreDrops(ModBlocks.DIORITE_EMERALD_ORE, Items.EMERALD));
-        addDrop(ModBlocks.DIORITE_IRON_ORE, oreDrops(ModBlocks.DIORITE_IRON_ORE, Items.RAW_IRON));
-        addDrop(ModBlocks.DIORITE_GOLD_ORE, oreDrops(ModBlocks.DIORITE_GOLD_ORE, Items.RAW_GOLD));
-        addDrop(ModBlocks.DIORITE_DIAMOND_ORE, oreDrops(ModBlocks.DIORITE_DIAMOND_ORE, Items.DIAMOND));
-        addDrop(ModBlocks.DIORITE_COPPER_ORE, copperOreDrops(ModBlocks.DIORITE_COPPER_ORE));
-        addDrop(ModBlocks.DIORITE_LAPIS_ORE, lapisOreDrops(ModBlocks.DIORITE_LAPIS_ORE));
-        addDrop(ModBlocks.DIORITE_REDSTONE_ORE, redstoneOreDrops(ModBlocks.DIORITE_REDSTONE_ORE));
-        addDrop(ModBlocks.CALCITE_COAL_ORE, oreDrops(ModBlocks.CALCITE_COAL_ORE, Items.COAL));
-        addDrop(ModBlocks.CALCITE_EMERALD_ORE, oreDrops(ModBlocks.CALCITE_EMERALD_ORE, Items.EMERALD));
-        addDrop(ModBlocks.CALCITE_IRON_ORE, oreDrops(ModBlocks.CALCITE_IRON_ORE, Items.RAW_IRON));
-        addDrop(ModBlocks.CALCITE_GOLD_ORE, oreDrops(ModBlocks.CALCITE_GOLD_ORE, Items.RAW_GOLD));
-        addDrop(ModBlocks.CALCITE_DIAMOND_ORE, oreDrops(ModBlocks.CALCITE_DIAMOND_ORE, Items.DIAMOND));
-        addDrop(ModBlocks.CALCITE_COPPER_ORE, copperOreDrops(ModBlocks.CALCITE_COPPER_ORE));
-        addDrop(ModBlocks.CALCITE_LAPIS_ORE, lapisOreDrops(ModBlocks.CALCITE_LAPIS_ORE));
-        addDrop(ModBlocks.CALCITE_REDSTONE_ORE, redstoneOreDrops(ModBlocks.CALCITE_REDSTONE_ORE));
-        addDrop(ModBlocks.DRIPSTONE_COAL_ORE, oreDrops(ModBlocks.DRIPSTONE_COAL_ORE, Items.COAL));
-        addDrop(ModBlocks.DRIPSTONE_EMERALD_ORE, oreDrops(ModBlocks.DRIPSTONE_EMERALD_ORE, Items.EMERALD));
-        addDrop(ModBlocks.DRIPSTONE_IRON_ORE, oreDrops(ModBlocks.DRIPSTONE_IRON_ORE, Items.RAW_IRON));
-        addDrop(ModBlocks.DRIPSTONE_GOLD_ORE, oreDrops(ModBlocks.DRIPSTONE_GOLD_ORE, Items.RAW_GOLD));
-        addDrop(ModBlocks.DRIPSTONE_DIAMOND_ORE, oreDrops(ModBlocks.DRIPSTONE_DIAMOND_ORE, Items.DIAMOND));
-        addDrop(ModBlocks.DRIPSTONE_COPPER_ORE, copperOreDrops(ModBlocks.DRIPSTONE_COPPER_ORE));
-        addDrop(ModBlocks.DRIPSTONE_LAPIS_ORE, lapisOreDrops(ModBlocks.DRIPSTONE_LAPIS_ORE));
-        addDrop(ModBlocks.DRIPSTONE_REDSTONE_ORE, redstoneOreDrops(ModBlocks.DRIPSTONE_REDSTONE_ORE));
-        addDrop(ModBlocks.TUFF_COAL_ORE, oreDrops(ModBlocks.TUFF_COAL_ORE, Items.COAL));
-        addDrop(ModBlocks.TUFF_EMERALD_ORE, oreDrops(ModBlocks.TUFF_EMERALD_ORE, Items.EMERALD));
-        addDrop(ModBlocks.TUFF_IRON_ORE, oreDrops(ModBlocks.TUFF_IRON_ORE, Items.RAW_IRON));
-        addDrop(ModBlocks.TUFF_GOLD_ORE, oreDrops(ModBlocks.TUFF_GOLD_ORE, Items.RAW_GOLD));
-        addDrop(ModBlocks.TUFF_DIAMOND_ORE, oreDrops(ModBlocks.TUFF_DIAMOND_ORE, Items.DIAMOND));
-        addDrop(ModBlocks.TUFF_COPPER_ORE, copperOreDrops(ModBlocks.TUFF_COPPER_ORE));
-        addDrop(ModBlocks.TUFF_LAPIS_ORE, lapisOreDrops(ModBlocks.TUFF_LAPIS_ORE));
-        addDrop(ModBlocks.TUFF_REDSTONE_ORE, redstoneOreDrops(ModBlocks.TUFF_REDSTONE_ORE));
-        addDrop(ModBlocks.MOSSY_COAL_ORE, oreDrops(ModBlocks.MOSSY_COAL_ORE, Items.COAL));
-        addDrop(ModBlocks.MOSSY_EMERALD_ORE, oreDrops(ModBlocks.MOSSY_EMERALD_ORE, Items.EMERALD));
-        addDrop(ModBlocks.MOSSY_IRON_ORE, oreDrops(ModBlocks.MOSSY_IRON_ORE, Items.RAW_IRON));
-        addDrop(ModBlocks.MOSSY_GOLD_ORE, oreDrops(ModBlocks.MOSSY_GOLD_ORE, Items.RAW_GOLD));
-        addDrop(ModBlocks.MOSSY_DIAMOND_ORE, oreDrops(ModBlocks.MOSSY_DIAMOND_ORE, Items.DIAMOND));
-        addDrop(ModBlocks.MOSSY_COPPER_ORE, copperOreDrops(ModBlocks.MOSSY_COPPER_ORE));
-        addDrop(ModBlocks.MOSSY_LAPIS_ORE, lapisOreDrops(ModBlocks.MOSSY_LAPIS_ORE));
-        addDrop(ModBlocks.MOSSY_REDSTONE_ORE, redstoneOreDrops(ModBlocks.MOSSY_REDSTONE_ORE));
-        addDrop(ModBlocks.BASALT_QUARTZ_ORE,oreDrops(ModBlocks.BASALT_QUARTZ_ORE,Items.QUARTZ));
-        addDrop(ModBlocks.BLACKSTONE_QUARTZ_ORE,oreDrops(ModBlocks.BLACKSTONE_QUARTZ_ORE,Items.QUARTZ));
-        addDrop(ModBlocks.BASALT_GOLD_ORE,multipleOreDrops(ModBlocks.BASALT_GOLD_ORE,
-                Items.GOLD_NUGGET,2f,6f));
-    }
-
-        public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
-            RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
-            return this.dropsWithSilkTouch(drop, this.applyExplosionDecay(drop, ((LeafEntry.Builder<?>)
-                    ItemEntry.builder(item).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(minDrops, maxDrops))))
-                    .apply(ApplyBonusLootFunction.oreDrops(impl.getOrThrow(Enchantments.FORTUNE)))));
     }
 }

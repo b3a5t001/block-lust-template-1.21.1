@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "minecraft:stick",
+    "S": "blocklust:mossy_pale_oak_planks"
+  },
+  "pattern": [
+    "   ",
+    "RSR",
+    "RSR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "blocklust:mossy_pale_oak_fence_gate"
+  }
+}

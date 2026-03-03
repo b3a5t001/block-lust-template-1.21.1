@@ -414,6 +414,11 @@ public class ModItemGroup {
                         entries.add(ModPlanks.MOSSY_OAK_SLAB);
                         entries.add(ModPlanks.MOSSY_OAK_FENCE);
                         entries.add(ModPlanks.MOSSY_OAK_FENCE_GATE);
+                        entries.add(ModPlanks.MOSSY_PALE_OAK_PLANKS);
+                        entries.add(ModPlanks.MOSSY_PALE_OAK_STAIRS);
+                        entries.add(ModPlanks.MOSSY_PALE_OAK_SLAB);
+                        entries.add(ModPlanks.MOSSY_PALE_OAK_FENCE);
+                        entries.add(ModPlanks.MOSSY_PALE_OAK_FENCE_GATE);
                         entries.add(ModPlanks.MOSSY_SPRUCE_PLANKS);
                         entries.add(ModPlanks.MOSSY_SPRUCE_STAIRS);
                         entries.add(ModPlanks.MOSSY_SPRUCE_SLAB);
@@ -424,81 +429,7 @@ public class ModItemGroup {
                         entries.add(ModPlanks.MOSSY_WARPED_SLAB);
                         entries.add(ModPlanks.MOSSY_WARPED_FENCE);
                         entries.add(ModPlanks.MOSSY_WARPED_FENCE_GATE);
-
                     }).build());
-    public static final ItemGroup ORE_EXPANSION_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(BlockLust.MOD_ID, "ore_expansion"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.CALCITE_DIAMOND_ORE))
-                    .displayName(Text.translatable("itemgroup.blocklust.ore_expansion"))
-                    .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.ANDESITE_COAL_ORE);
-                        entries.add(ModBlocks.ANDESITE_COPPER_ORE);
-                        entries.add(ModBlocks.ANDESITE_IRON_ORE);
-                        entries.add(ModBlocks.ANDESITE_GOLD_ORE);
-                        entries.add(ModBlocks.ANDESITE_LAPIS_ORE);
-                        entries.add(ModBlocks.ANDESITE_REDSTONE_ORE);
-                        entries.add(ModBlocks.ANDESITE_DIAMOND_ORE);
-                        entries.add(ModBlocks.ANDESITE_EMERALD_ORE);
-                        
-                        entries.add(ModBlocks.BASALT_GOLD_ORE);
-                        entries.add(ModBlocks.BASALT_QUARTZ_ORE);
-                        entries.add(ModBlocks.BLACKSTONE_QUARTZ_ORE);
-
-                        entries.add(ModBlocks.CALCITE_COAL_ORE);
-                        entries.add(ModBlocks.CALCITE_COPPER_ORE);
-                        entries.add(ModBlocks.CALCITE_IRON_ORE);
-                        entries.add(ModBlocks.CALCITE_GOLD_ORE);
-                        entries.add(ModBlocks.CALCITE_LAPIS_ORE);
-                        entries.add(ModBlocks.CALCITE_REDSTONE_ORE);
-                        entries.add(ModBlocks.CALCITE_DIAMOND_ORE);
-                        entries.add(ModBlocks.CALCITE_EMERALD_ORE);
-                        
-                        entries.add(ModBlocks.DIORITE_COAL_ORE);
-                        entries.add(ModBlocks.DIORITE_COPPER_ORE);
-                        entries.add(ModBlocks.DIORITE_IRON_ORE);
-                        entries.add(ModBlocks.DIORITE_GOLD_ORE);
-                        entries.add(ModBlocks.DIORITE_LAPIS_ORE);
-                        entries.add(ModBlocks.DIORITE_REDSTONE_ORE);
-                        entries.add(ModBlocks.DIORITE_DIAMOND_ORE);
-                        entries.add(ModBlocks.DIORITE_EMERALD_ORE);
-
-                        entries.add(ModBlocks.DRIPSTONE_COAL_ORE);
-                        entries.add(ModBlocks.DRIPSTONE_COPPER_ORE);
-                        entries.add(ModBlocks.DRIPSTONE_IRON_ORE);
-                        entries.add(ModBlocks.DRIPSTONE_GOLD_ORE);
-                        entries.add(ModBlocks.DRIPSTONE_LAPIS_ORE);
-                        entries.add(ModBlocks.DRIPSTONE_REDSTONE_ORE);
-                        entries.add(ModBlocks.DRIPSTONE_DIAMOND_ORE);
-                        entries.add(ModBlocks.DRIPSTONE_EMERALD_ORE);
-                        
-                        entries.add(ModBlocks.GRANITE_COAL_ORE);
-                        entries.add(ModBlocks.GRANITE_COPPER_ORE);
-                        entries.add(ModBlocks.GRANITE_IRON_ORE);
-                        entries.add(ModBlocks.GRANITE_GOLD_ORE);
-                        entries.add(ModBlocks.GRANITE_LAPIS_ORE);
-                        entries.add(ModBlocks.GRANITE_REDSTONE_ORE);
-                        entries.add(ModBlocks.GRANITE_DIAMOND_ORE);
-                        entries.add(ModBlocks.GRANITE_EMERALD_ORE);
-                        
-                        entries.add(ModBlocks.MOSSY_COAL_ORE);
-                        entries.add(ModBlocks.MOSSY_COPPER_ORE);
-                        entries.add(ModBlocks.MOSSY_IRON_ORE);
-                        entries.add(ModBlocks.MOSSY_GOLD_ORE);
-                        entries.add(ModBlocks.MOSSY_LAPIS_ORE);
-                        entries.add(ModBlocks.MOSSY_REDSTONE_ORE);
-                        entries.add(ModBlocks.MOSSY_DIAMOND_ORE);
-                        entries.add(ModBlocks.MOSSY_EMERALD_ORE);
-
-                        entries.add(ModBlocks.TUFF_COAL_ORE);
-                        entries.add(ModBlocks.TUFF_COPPER_ORE);
-                        entries.add(ModBlocks.TUFF_IRON_ORE);
-                        entries.add(ModBlocks.TUFF_GOLD_ORE);
-                        entries.add(ModBlocks.TUFF_LAPIS_ORE);
-                        entries.add(ModBlocks.TUFF_REDSTONE_ORE);
-                        entries.add(ModBlocks.TUFF_DIAMOND_ORE);
-                        entries.add(ModBlocks.TUFF_EMERALD_ORE);
-                    }).build());
-
     public static void registerItemGroups() {
         BlockLust.LOGGER.info("Registering Item Groups for " + BlockLust.MOD_ID);
     }

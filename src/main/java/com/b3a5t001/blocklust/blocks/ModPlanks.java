@@ -208,6 +208,19 @@ public class ModPlanks {
             () -> new FenceGateBlock(WoodType.DARK_OAK,
                     keyedCreate().strength(2f).sounds(BlockSoundGroup.WOOD).burnable()));
 
+    public static final Block MOSSY_PALE_OAK_PLANKS = registerBlock("mossy_pale_oak_planks",
+            () -> new Block(keyedCreate().strength(2f).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block MOSSY_PALE_OAK_STAIRS = registerBlock("mossy_pale_oak_stairs",
+            () -> new StairsBlock(ModPlanks.MOSSY_PALE_OAK_PLANKS.getDefaultState(),
+                    keyedCreate().strength(2f).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block MOSSY_PALE_OAK_SLAB = registerBlock("mossy_pale_oak_slab",
+            () -> new SlabBlock(keyedCreate().strength(2f).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block MOSSY_PALE_OAK_FENCE = registerBlock("mossy_pale_oak_fence",
+            () -> new FenceBlock(keyedCreate().strength(2f).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block MOSSY_PALE_OAK_FENCE_GATE = registerBlock("mossy_pale_oak_fence_gate",
+            () -> new FenceGateBlock(WoodType.PALE_OAK,
+                    keyedCreate().strength(2f).sounds(BlockSoundGroup.WOOD).burnable()));
+
     private static Block registerBlock(String name, Supplier<? extends Block> blockFactory) {
         Identifier id = Identifier.of(BlockLust.MOD_ID, name);
         RegistryKey<Block> blockKey = RegistryKey.of(RegistryKeys.BLOCK, id);

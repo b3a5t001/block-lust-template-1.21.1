@@ -147,6 +147,34 @@ public class PlanksCraftingRecipes extends RecipeGenerator {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter);
 
+        createShapeless(RecipeCategory.BUILDING_BLOCKS,ModPlanks.MOSSY_PALE_OAK_PLANKS)
+                .input(ModItemTags.MOSSY_SOURCES)
+                .input(Items.PALE_OAK_PLANKS)
+                .criterion("has_mossy_sources",conditionsFromItem(Items.MOSS_BLOCK))
+                .criterion("has_mossy_sources",conditionsFromItem(Items.VINE))
+                .criterion("has_dark_oak_planks",conditionsFromItem(Items.PALE_OAK_PLANKS))
+                .offerTo(exporter);
+        offerSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModPlanks.MOSSY_PALE_OAK_SLAB,ModPlanks.MOSSY_PALE_OAK_PLANKS);
+        ModRecipeProvider.offerStairsRecipe(this, exporter, ModPlanks.MOSSY_PALE_OAK_STAIRS, ModPlanks.MOSSY_PALE_OAK_PLANKS);
+        createShaped(RecipeCategory.BUILDING_BLOCKS, ModPlanks.MOSSY_PALE_OAK_FENCE, 3)
+                .pattern("   ")
+                .pattern("RSR")
+                .pattern("RSR")
+                .input('R', ModPlanks.MOSSY_PALE_OAK_PLANKS)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModPlanks.MOSSY_PALE_OAK_PLANKS), conditionsFromItem(ModPlanks.MOSSY_PALE_OAK_PLANKS))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+        createShaped(RecipeCategory.BUILDING_BLOCKS, ModPlanks.MOSSY_PALE_OAK_FENCE_GATE, 1)
+                .pattern("   ")
+                .pattern("RSR")
+                .pattern("RSR")
+                .input('S', ModPlanks.MOSSY_PALE_OAK_PLANKS)
+                .input('R', Items.STICK)
+                .criterion(hasItem(ModPlanks.MOSSY_PALE_OAK_PLANKS), conditionsFromItem(ModPlanks.MOSSY_PALE_OAK_PLANKS))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
         createShapeless(RecipeCategory.BUILDING_BLOCKS,ModPlanks.MOSSY_CHERRY_PLANKS)
                 .input(ModItemTags.MOSSY_SOURCES)
                 .input(Items.CHERRY_PLANKS)
